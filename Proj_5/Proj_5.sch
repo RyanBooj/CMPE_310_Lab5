@@ -133,7 +133,22 @@ Wire Wire Line
 	3400 3100 2500 3100
 Wire Wire Line
 	2500 3100 2500 3200
+Connection ~ 2500 3100
+$Comp
+L power:+5V #PWR?
+U 1 1 5E90A12F
+P 2100 850
+F 0 "#PWR?" H 2100 700 50  0001 C CNN
+F 1 "+5V" H 2115 1023 50  0000 C CNN
+F 2 "" H 2100 850 50  0001 C CNN
+F 3 "" H 2100 850 50  0001 C CNN
+	1    2100 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1100 2100 1100
+Wire Wire Line
+	2100 1100 2100 850 
 Wire Bus Line
 	3500 1500 3500 3250
-Connection ~ 2500 3100
 $EndSCHEMATC
