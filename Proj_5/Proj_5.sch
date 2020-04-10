@@ -13,10 +13,4 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 1650 1050 1050 1150
-U 5E908D15
-F0 "Sheet5E908D14" 50
-F1 "Proj5_8255s.sch" 50
-$EndSheet
 $EndSCHEMATC
