@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 19685 19685
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -14,30 +14,13 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 1150 800  850  1150
+S 9400 4750 850  1150
 U 5E9E2E0E
 F0 "Clock_Generator" 50
 F1 "Clock_Generator.sch" 50
-F2 "CLK_RES" I L 1150 1200 50 
-F3 "CLK_OUT" O L 1150 1550 50 
+F2 "CLK_RES" I L 9400 5150 50 
+F3 "CLK_OUT" O L 9400 5500 50 
 $EndSheet
-$Comp
-L MCU_Intel:8086_Min_Mode U?
-U 1 1 5E99BD91
-P 3200 4050
-F 0 "U?" H 3200 6031 50  0000 C CNN
-F 1 "8086_Min_Mode" H 3200 5940 50  0000 C CNN
-F 2 "Package_DIP:DIP-40_W15.24mm" H 3250 4150 50  0001 C CIN
-F 3 "http://datasheets.chipdb.org/Intel/x86/808x/datashts/8086/231455-006.pdf" H 3200 4100 50  0001 C CNN
-	1    3200 4050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1150 1550 750  1550
-Wire Wire Line
-	750  1550 750  2550
-Wire Wire Line
-	750  2550 2500 2550
 $Sheet
 S 13550 4000 2500 1950
 U 5EA0416B
@@ -82,4 +65,10 @@ F1 "8279.sch" 256
 $EndSheet
 Text Notes 14950 18250 0    169  ~ 0
 Ryan Bugianesi and Collin Mood\n
+$Sheet
+S 4500 2450 1750 3750
+U 5E9F3A3D
+F0 "8086 and Demultiplexed Addresses" 157
+F1 "8086_Demuxing.sch" 157
+$EndSheet
 $EndSCHEMATC
