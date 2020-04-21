@@ -1,0 +1,153 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 10 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Intel:8086_Min_Mode U?
+U 1 1 5E9F413F
+P 7850 8700
+F 0 "U?" H 7850 10681 50  0000 C CNN
+F 1 "8086_Min_Mode" H 7850 10590 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm" H 7900 8800 50  0001 C CIN
+F 3 "http://datasheets.chipdb.org/Intel/x86/808x/datashts/8086/231455-006.pdf" H 7850 8750 50  0001 C CNN
+	1    7850 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS373 U?
+U 1 1 5E9F8AC2
+P 12900 7600
+F 0 "U?" V 12854 8444 50  0000 L CNN
+F 1 "74LS373" V 12945 8444 50  0000 L CNN
+F 2 "" H 12900 7600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 12900 7600 50  0001 C CNN
+	1    12900 7600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74LS373 U?
+U 1 1 5E9FCB3B
+P 10200 4750
+F 0 "U?" V 10154 5594 50  0000 L CNN
+F 1 "74LS373" V 10245 5594 50  0000 L CNN
+F 2 "" H 10200 4750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 10200 4750 50  0001 C CNN
+	1    10200 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS245 U?
+U 1 1 5EA00484
+P 12350 12350
+F 0 "U?" H 12350 13331 50  0000 C CNN
+F 1 "74LS245" H 12350 13240 50  0000 C CNN
+F 2 "" H 12350 12350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 12350 12350 50  0001 C CNN
+	1    12350 12350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS245 U?
+U 1 1 5EA0390A
+P 14250 12500
+F 0 "U?" H 14250 13481 50  0000 C CNN
+F 1 "74LS245" H 14250 13390 50  0000 C CNN
+F 2 "" H 14250 12500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 14250 12500 50  0001 C CNN
+	1    14250 12500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS244 U?
+U 1 1 5EA03AD7
+P 10350 12450
+F 0 "U?" H 10350 13431 50  0000 C CNN
+F 1 "74LS244" H 10350 13340 50  0000 C CNN
+F 2 "" H 10350 12450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS244" H 10350 12450 50  0001 C CNN
+	1    10350 12450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS373 U?
+U 1 1 5E9FBE84
+P 10300 7600
+F 0 "U?" V 10254 8444 50  0000 L CNN
+F 1 "74LS373" V 10345 8444 50  0000 L CNN
+F 2 "" H 10300 7600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 10300 7600 50  0001 C CNN
+	1    10300 7600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8550 8100 9250 8100
+Wire Wire Line
+	9500 8100 9500 8200
+Wire Wire Line
+	9500 8200 10700 8200
+Wire Wire Line
+	10700 8200 10700 8100
+Connection ~ 10700 8200
+Wire Wire Line
+	10700 8200 13300 8200
+Wire Wire Line
+	13300 8100 13300 8200
+Connection ~ 9250 8100
+Wire Wire Line
+	9250 8100 9500 8100
+Wire Wire Line
+	9250 8100 9250 5150
+Wire Wire Line
+	9250 5150 9700 5150
+Wire Wire Line
+	8550 7650 9150 7650
+Wire Wire Line
+	8550 7550 9100 7550
+Wire Wire Line
+	8550 7450 9050 7450
+Wire Wire Line
+	8550 7350 9000 7350
+Wire Wire Line
+	8550 7250 8950 7250
+Wire Wire Line
+	8950 4250 9700 4250
+Wire Wire Line
+	8950 4250 8950 7250
+Wire Wire Line
+	9000 4350 9700 4350
+Wire Wire Line
+	9000 4350 9000 7350
+Wire Wire Line
+	9050 4450 9700 4450
+Wire Wire Line
+	9050 4450 9050 7450
+Wire Wire Line
+	9100 4550 9700 4550
+Wire Wire Line
+	9100 4550 9100 7550
+Wire Wire Line
+	9150 4650 9700 4650
+Wire Wire Line
+	9150 4650 9150 7650
+Wire Wire Line
+	8550 8300 13700 8300
+Wire Wire Line
+	8550 8400 13700 8400
+Wire Wire Line
+	8550 8500 13700 8500
+Wire Wire Line
+	8550 8600 13700 8600
+Wire Wire Line
+	8550 8700 13700 8700
+$EndSCHEMATC
