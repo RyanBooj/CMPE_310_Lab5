@@ -75,7 +75,7 @@ Wire Wire Line
 Wire Wire Line
 	10050 6550 10050 5500
 $Comp
-L Proj_5_Custom_LED:Switch_SW_SPST SW?
+L Proj_5-rescue:Switch_SW_SPST-Proj_5_Custom_LED SW?
 U 1 1 5EA20375
 P 10250 3000
 F 0 "SW?" H 10250 3235 50  0000 C CNN
@@ -86,7 +86,7 @@ F 3 "" H 10250 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Proj_5_Custom_LED:Switch_SW_SPST SW?
+L Proj_5-rescue:Switch_SW_SPST-Proj_5_Custom_LED SW?
 U 1 1 5EA1576F
 P 10250 5000
 F 0 "SW?" H 10250 5235 50  0000 C CNN
@@ -97,7 +97,7 @@ F 3 "" H 10250 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Proj_5_Custom_LED:Switch_SW_SPST SW?
+L Proj_5-rescue:Switch_SW_SPST-Proj_5_Custom_LED SW?
 U 1 1 5EA154A2
 P 10250 4500
 F 0 "SW?" H 10250 4735 50  0000 C CNN
@@ -108,7 +108,7 @@ F 3 "" H 10250 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Proj_5_Custom_LED:Switch_SW_SPST SW?
+L Proj_5-rescue:Switch_SW_SPST-Proj_5_Custom_LED SW?
 U 1 1 5EA14DD7
 P 10250 4000
 F 0 "SW?" H 10250 4235 50  0000 C CNN
@@ -119,7 +119,7 @@ F 3 "" H 10250 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Proj_5_Custom_LED:Switch_SW_SPST SW?
+L Proj_5-rescue:Switch_SW_SPST-Proj_5_Custom_LED SW?
 U 1 1 5EA137C2
 P 10250 3500
 F 0 "SW?" H 10250 3735 50  0000 C CNN
@@ -152,7 +152,7 @@ Connection ~ 11600 3500
 Wire Wire Line
 	11600 3000 11450 3000
 $Comp
-L Proj_5_Custom_LED:Switch_SW_SPST SW?
+L Proj_5-rescue:Switch_SW_SPST-Proj_5_Custom_LED SW?
 U 1 1 5EA3DD7B
 P 11250 3000
 F 0 "SW?" H 11250 3235 50  0000 C CNN
@@ -163,7 +163,7 @@ F 3 "" H 11250 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Proj_5_Custom_LED:Switch_SW_SPST SW?
+L Proj_5-rescue:Switch_SW_SPST-Proj_5_Custom_LED SW?
 U 1 1 5EA3DD81
 P 11250 5000
 F 0 "SW?" H 11250 5235 50  0000 C CNN
@@ -174,7 +174,7 @@ F 3 "" H 11250 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Proj_5_Custom_LED:Switch_SW_SPST SW?
+L Proj_5-rescue:Switch_SW_SPST-Proj_5_Custom_LED SW?
 U 1 1 5EA3DD87
 P 11250 4500
 F 0 "SW?" H 11250 4735 50  0000 C CNN
@@ -185,7 +185,7 @@ F 3 "" H 11250 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Proj_5_Custom_LED:Switch_SW_SPST SW?
+L Proj_5-rescue:Switch_SW_SPST-Proj_5_Custom_LED SW?
 U 1 1 5EA3DD8D
 P 11250 4000
 F 0 "SW?" H 11250 4235 50  0000 C CNN
@@ -196,7 +196,7 @@ F 3 "" H 11250 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Proj_5_Custom_LED:Switch_SW_SPST SW?
+L Proj_5-rescue:Switch_SW_SPST-Proj_5_Custom_LED SW?
 U 1 1 5EA3DD93
 P 11250 3500
 F 0 "SW?" H 11250 3735 50  0000 C CNN
@@ -224,7 +224,7 @@ Connection ~ 12600 4000
 Wire Wire Line
 	12600 3500 12450 3500
 $Comp
-L Proj_5_Custom_LED:Switch_SW_SPST SW?
+L Proj_5-rescue:Switch_SW_SPST-Proj_5_Custom_LED SW?
 U 1 1 5EA78021
 P 12250 5000
 F 0 "SW?" H 12250 5235 50  0000 C CNN
@@ -235,7 +235,7 @@ F 3 "" H 12250 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Proj_5_Custom_LED:Switch_SW_SPST SW?
+L Proj_5-rescue:Switch_SW_SPST-Proj_5_Custom_LED SW?
 U 1 1 5EA78027
 P 12250 4500
 F 0 "SW?" H 12250 4735 50  0000 C CNN
@@ -246,7 +246,7 @@ F 3 "" H 12250 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Proj_5_Custom_LED:Switch_SW_SPST SW?
+L Proj_5-rescue:Switch_SW_SPST-Proj_5_Custom_LED SW?
 U 1 1 5EA7802D
 P 12250 4000
 F 0 "SW?" H 12250 4235 50  0000 C CNN
@@ -257,7 +257,7 @@ F 3 "" H 12250 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Proj_5_Custom_LED:Switch_SW_SPST SW?
+L Proj_5-rescue:Switch_SW_SPST-Proj_5_Custom_LED SW?
 U 1 1 5EA78033
 P 12250 3500
 F 0 "SW?" H 12250 3735 50  0000 C CNN
@@ -285,7 +285,7 @@ Connection ~ 13600 4000
 Wire Wire Line
 	13600 3500 13450 3500
 $Comp
-L Proj_5_Custom_LED:Switch_SW_SPST SW?
+L Proj_5-rescue:Switch_SW_SPST-Proj_5_Custom_LED SW?
 U 1 1 5EA82E83
 P 13250 5000
 F 0 "SW?" H 13250 5235 50  0000 C CNN
@@ -296,7 +296,7 @@ F 3 "" H 13250 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Proj_5_Custom_LED:Switch_SW_SPST SW?
+L Proj_5-rescue:Switch_SW_SPST-Proj_5_Custom_LED SW?
 U 1 1 5EA82E89
 P 13250 4500
 F 0 "SW?" H 13250 4735 50  0000 C CNN
@@ -307,7 +307,7 @@ F 3 "" H 13250 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Proj_5_Custom_LED:Switch_SW_SPST SW?
+L Proj_5-rescue:Switch_SW_SPST-Proj_5_Custom_LED SW?
 U 1 1 5EA82E8F
 P 13250 4000
 F 0 "SW?" H 13250 4235 50  0000 C CNN
@@ -318,7 +318,7 @@ F 3 "" H 13250 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Proj_5_Custom_LED:Switch_SW_SPST SW?
+L Proj_5-rescue:Switch_SW_SPST-Proj_5_Custom_LED SW?
 U 1 1 5EA82E95
 P 13250 3500
 F 0 "SW?" H 13250 3735 50  0000 C CNN
@@ -346,7 +346,7 @@ Connection ~ 14650 4000
 Wire Wire Line
 	14650 3500 14500 3500
 $Comp
-L Proj_5_Custom_LED:Switch_SW_SPST SW?
+L Proj_5-rescue:Switch_SW_SPST-Proj_5_Custom_LED SW?
 U 1 1 5EA89F25
 P 14300 5000
 F 0 "SW?" H 14300 5235 50  0000 C CNN
@@ -357,7 +357,7 @@ F 3 "" H 14300 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Proj_5_Custom_LED:Switch_SW_SPST SW?
+L Proj_5-rescue:Switch_SW_SPST-Proj_5_Custom_LED SW?
 U 1 1 5EA89F2B
 P 14300 4500
 F 0 "SW?" H 14300 4735 50  0000 C CNN
@@ -368,7 +368,7 @@ F 3 "" H 14300 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Proj_5_Custom_LED:Switch_SW_SPST SW?
+L Proj_5-rescue:Switch_SW_SPST-Proj_5_Custom_LED SW?
 U 1 1 5EA89F31
 P 14300 4000
 F 0 "SW?" H 14300 4235 50  0000 C CNN
@@ -379,7 +379,7 @@ F 3 "" H 14300 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Proj_5_Custom_LED:Switch_SW_SPST SW?
+L Proj_5-rescue:Switch_SW_SPST-Proj_5_Custom_LED SW?
 U 1 1 5EA89F37
 P 14300 3500
 F 0 "SW?" H 14300 3735 50  0000 C CNN

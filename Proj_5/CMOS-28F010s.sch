@@ -1052,6 +1052,542 @@ Wire Wire Line
 	7350 20600 6850 20600
 Wire Wire Line
 	7350 20700 6850 20700
+$Comp
+L 74xx_IEEE:74LS138 U?
+U 1 1 5EA276E4
+P 8700 3100
+F 0 "U?" H 8700 3616 50  0000 C CNN
+F 1 "74LS138" H 8700 3525 50  0000 C CNN
+F 2 "" H 8700 3100 50  0001 C CNN
+F 3 "" H 8700 3100 50  0001 C CNN
+	1    8700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx_IEEE:74LS138 U?
+U 1 1 5EA24F71
+P 8700 1350
+F 0 "U?" H 8700 1866 50  0000 C CNN
+F 1 "74LS138" H 8700 1775 50  0000 C CNN
+F 2 "" H 8700 1350 50  0001 C CNN
+F 3 "" H 8700 1350 50  0001 C CNN
+	1    8700 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EAE3763
+P 8700 3700
+F 0 "#PWR?" H 8700 3450 50  0001 C CNN
+F 1 "GND" H 8705 3527 50  0000 C CNN
+F 2 "" H 8700 3700 50  0001 C CNN
+F 3 "" H 8700 3700 50  0001 C CNN
+	1    8700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EAE462A
+P 8700 1950
+F 0 "#PWR?" H 8700 1700 50  0001 C CNN
+F 1 "GND" H 8705 1777 50  0000 C CNN
+F 2 "" H 8700 1950 50  0001 C CNN
+F 3 "" H 8700 1950 50  0001 C CNN
+	1    8700 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5EAE587A
+P 8700 2800
+F 0 "#PWR?" H 8700 2650 50  0001 C CNN
+F 1 "+5V" H 8715 2973 50  0000 C CNN
+F 2 "" H 8700 2800 50  0001 C CNN
+F 3 "" H 8700 2800 50  0001 C CNN
+	1    8700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5EAE76B4
+P 8700 1050
+F 0 "#PWR?" H 8700 900 50  0001 C CNN
+F 1 "+5V" H 8715 1223 50  0000 C CNN
+F 2 "" H 8700 1050 50  0001 C CNN
+F 3 "" H 8700 1050 50  0001 C CNN
+	1    8700 1050
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	7450 1500 7550 1600
+Entry Wire Line
+	7450 1600 7550 1700
+Entry Wire Line
+	7450 3250 7550 3350
+Entry Wire Line
+	7450 3350 7550 3450
+Wire Wire Line
+	7550 1600 8150 1600
+Wire Wire Line
+	7550 1700 8150 1700
+Wire Wire Line
+	7550 3350 8150 3350
+Wire Wire Line
+	7550 3450 8150 3450
+NoConn ~ 8150 1800
+NoConn ~ 8150 3550
+$Comp
+L power:GND #PWR?
+U 1 1 5EBA5C17
+P 7950 1250
+F 0 "#PWR?" H 7950 1000 50  0001 C CNN
+F 1 "GND" V 7955 1122 50  0000 R CNN
+F 2 "" H 7950 1250 50  0001 C CNN
+F 3 "" H 7950 1250 50  0001 C CNN
+	1    7950 1250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7950 1250 8150 1250
+Wire Wire Line
+	7950 1250 7950 1150
+Wire Wire Line
+	7950 1150 8150 1150
+Connection ~ 7950 1250
+Entry Wire Line
+	7450 1250 7550 1350
+Wire Wire Line
+	7550 1350 8150 1350
+Text HLabel 8150 3100 0    50   Input ~ 0
+BHE\
+$Comp
+L power:GND #PWR?
+U 1 1 5EC28A77
+P 7950 3000
+F 0 "#PWR?" H 7950 2750 50  0001 C CNN
+F 1 "GND" V 7955 2872 50  0000 R CNN
+F 2 "" H 7950 3000 50  0001 C CNN
+F 3 "" H 7950 3000 50  0001 C CNN
+	1    7950 3000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7950 3000 8150 3000
+Wire Wire Line
+	7950 3000 7950 2900
+Wire Wire Line
+	7950 2900 8150 2900
+Connection ~ 7950 3000
+Text Label 7550 1350 0    50   ~ 0
+A0
+Text Label 7550 1600 0    50   ~ 0
+A1
+Text Label 7550 1700 0    50   ~ 0
+A2
+Text Label 7550 3350 0    50   ~ 0
+A1
+Text Label 7550 3450 0    50   ~ 0
+A2
+Text Label 7100 3700 0    50   ~ 0
+D7
+Text Label 7100 3800 0    50   ~ 0
+D6
+Text Label 7100 3900 0    50   ~ 0
+D5
+Text Label 7100 4000 0    50   ~ 0
+D4
+Text Label 7100 4100 0    50   ~ 0
+D3
+Text Label 4300 4000 0    50   ~ 0
+D2
+Text Label 4300 3900 0    50   ~ 0
+D1
+Text Label 4300 3800 0    50   ~ 0
+D0
+Text Label 4300 3700 0    50   ~ 0
+A3
+Text Label 4300 3600 0    50   ~ 0
+A4
+Text Label 4300 3500 0    50   ~ 0
+A5
+Text Label 4300 3400 0    50   ~ 0
+A6
+Text Label 4300 3300 0    50   ~ 0
+A7
+Text Label 4300 3200 0    50   ~ 0
+A8
+Text Label 4300 3100 0    50   ~ 0
+A9
+Text Label 4300 3000 0    50   ~ 0
+A10
+Text Label 7100 3100 0    50   ~ 0
+A11
+Text Label 7100 3200 0    50   ~ 0
+A12
+Text Label 7100 3500 0    50   ~ 0
+A13
+Text Label 7100 3300 0    50   ~ 0
+A14
+Text Label 4300 2900 0    50   ~ 0
+A15
+Text Label 7100 3000 0    50   ~ 0
+A16
+Text Label 7100 2900 0    50   ~ 0
+A17
+Text Label 4300 2800 0    50   ~ 0
+A18
+Text Label 4300 2700 0    50   ~ 0
+A19
+Text Label 4300 5200 0    50   ~ 0
+A19
+Text Label 4300 5300 0    50   ~ 0
+A18
+Text Label 4300 5400 0    50   ~ 0
+A15
+Text Label 4300 5500 0    50   ~ 0
+A10
+Text Label 4300 5600 0    50   ~ 0
+A9
+Text Label 4300 5700 0    50   ~ 0
+A8
+Text Label 4300 5800 0    50   ~ 0
+A7
+Text Label 4300 5900 0    50   ~ 0
+A6
+Text Label 4300 6000 0    50   ~ 0
+A5
+Text Label 4300 6100 0    50   ~ 0
+A4
+Text Label 4300 6200 0    50   ~ 0
+A3
+Text Label 4300 6300 0    50   ~ 0
+D0
+Text Label 4300 6400 0    50   ~ 0
+D1
+Text Label 4300 6500 0    50   ~ 0
+D2
+Text Label 4300 7700 0    50   ~ 0
+A19
+Text Label 4300 7800 0    50   ~ 0
+A18
+Text Label 4300 7900 0    50   ~ 0
+A15
+Text Label 4300 8000 0    50   ~ 0
+A10
+Text Label 4300 8100 0    50   ~ 0
+A9
+Text Label 4300 8200 0    50   ~ 0
+A8
+Text Label 4300 8300 0    50   ~ 0
+A7
+Text Label 4300 8400 0    50   ~ 0
+A6
+Text Label 4300 8500 0    50   ~ 0
+A5
+Text Label 4300 8600 0    50   ~ 0
+A4
+Text Label 4300 8700 0    50   ~ 0
+A3
+Text Label 4300 8800 0    50   ~ 0
+D0
+Text Label 4300 8900 0    50   ~ 0
+D1
+Text Label 4300 9000 0    50   ~ 0
+D2
+Text Label 4300 10200 0    50   ~ 0
+A19
+Text Label 4300 10300 0    50   ~ 0
+A18
+Text Label 4300 10400 0    50   ~ 0
+A15
+Text Label 4300 10500 0    50   ~ 0
+A10
+Text Label 4300 10600 0    50   ~ 0
+A9
+Text Label 4300 10700 0    50   ~ 0
+A8
+Text Label 4300 10800 0    50   ~ 0
+A7
+Text Label 4300 10900 0    50   ~ 0
+A6
+Text Label 4300 11000 0    50   ~ 0
+A5
+Text Label 4300 11100 0    50   ~ 0
+A4
+Text Label 4300 11200 0    50   ~ 0
+A3
+Text Label 4300 11300 0    50   ~ 0
+D0
+Text Label 4300 11400 0    50   ~ 0
+D1
+Text Label 4300 11500 0    50   ~ 0
+D2
+Text Label 4300 12700 0    50   ~ 0
+A19
+Text Label 4300 12800 0    50   ~ 0
+A18
+Text Label 4300 12900 0    50   ~ 0
+A15
+Text Label 4300 13000 0    50   ~ 0
+A10
+Text Label 4300 13100 0    50   ~ 0
+A9
+Text Label 4300 13200 0    50   ~ 0
+A8
+Text Label 4300 13300 0    50   ~ 0
+A7
+Text Label 4300 13400 0    50   ~ 0
+A6
+Text Label 4300 13500 0    50   ~ 0
+A5
+Text Label 4300 13600 0    50   ~ 0
+A4
+Text Label 4300 13700 0    50   ~ 0
+A3
+Text Label 4300 13800 0    50   ~ 0
+D0
+Text Label 4300 13900 0    50   ~ 0
+D1
+Text Label 4300 14000 0    50   ~ 0
+D2
+Text Label 4300 15200 0    50   ~ 0
+A19
+Text Label 4300 15300 0    50   ~ 0
+A18
+Text Label 4300 15400 0    50   ~ 0
+A15
+Text Label 4300 15500 0    50   ~ 0
+A10
+Text Label 4300 15600 0    50   ~ 0
+A9
+Text Label 4300 15700 0    50   ~ 0
+A8
+Text Label 4300 15800 0    50   ~ 0
+A7
+Text Label 4300 15900 0    50   ~ 0
+A6
+Text Label 4300 16000 0    50   ~ 0
+A5
+Text Label 4300 16100 0    50   ~ 0
+A4
+Text Label 4300 16200 0    50   ~ 0
+A3
+Text Label 4300 16300 0    50   ~ 0
+D0
+Text Label 4300 16400 0    50   ~ 0
+D1
+Text Label 4300 16500 0    50   ~ 0
+D2
+Text Label 4300 17750 0    50   ~ 0
+A19
+Text Label 4300 17850 0    50   ~ 0
+A18
+Text Label 4300 17950 0    50   ~ 0
+A15
+Text Label 4300 18050 0    50   ~ 0
+A10
+Text Label 4300 18150 0    50   ~ 0
+A9
+Text Label 4300 18250 0    50   ~ 0
+A8
+Text Label 4300 18350 0    50   ~ 0
+A7
+Text Label 4300 18450 0    50   ~ 0
+A6
+Text Label 4300 18550 0    50   ~ 0
+A5
+Text Label 4300 18650 0    50   ~ 0
+A4
+Text Label 4300 18750 0    50   ~ 0
+A3
+Text Label 4300 18850 0    50   ~ 0
+D0
+Text Label 4300 18950 0    50   ~ 0
+D1
+Text Label 4300 19050 0    50   ~ 0
+D2
+Text Label 4300 20200 0    50   ~ 0
+A19
+Text Label 4300 20300 0    50   ~ 0
+A18
+Text Label 4300 20400 0    50   ~ 0
+A15
+Text Label 4300 20500 0    50   ~ 0
+A10
+Text Label 4300 20600 0    50   ~ 0
+A9
+Text Label 4300 20700 0    50   ~ 0
+A8
+Text Label 4300 20800 0    50   ~ 0
+A7
+Text Label 4300 20900 0    50   ~ 0
+A6
+Text Label 4300 21000 0    50   ~ 0
+A5
+Text Label 4300 21100 0    50   ~ 0
+A4
+Text Label 4300 21200 0    50   ~ 0
+A3
+Text Label 4300 21300 0    50   ~ 0
+D0
+Text Label 4300 21400 0    50   ~ 0
+D1
+Text Label 4300 21500 0    50   ~ 0
+D2
+Text Label 7100 6200 0    50   ~ 0
+D7
+Text Label 7100 6300 0    50   ~ 0
+D6
+Text Label 7100 6400 0    50   ~ 0
+D5
+Text Label 7100 6500 0    50   ~ 0
+D4
+Text Label 7100 6600 0    50   ~ 0
+D3
+Text Label 7100 5600 0    50   ~ 0
+A11
+Text Label 7100 5700 0    50   ~ 0
+A12
+Text Label 7100 6000 0    50   ~ 0
+A13
+Text Label 7100 5800 0    50   ~ 0
+A14
+Text Label 7100 5500 0    50   ~ 0
+A16
+Text Label 7100 5400 0    50   ~ 0
+A17
+Text Label 7100 8700 0    50   ~ 0
+D7
+Text Label 7100 8800 0    50   ~ 0
+D6
+Text Label 7100 8900 0    50   ~ 0
+D5
+Text Label 7100 9000 0    50   ~ 0
+D4
+Text Label 7100 9100 0    50   ~ 0
+D3
+Text Label 7100 8100 0    50   ~ 0
+A11
+Text Label 7100 8200 0    50   ~ 0
+A12
+Text Label 7100 8500 0    50   ~ 0
+A13
+Text Label 7100 8300 0    50   ~ 0
+A14
+Text Label 7100 8000 0    50   ~ 0
+A16
+Text Label 7100 7900 0    50   ~ 0
+A17
+Text Label 7100 11200 0    50   ~ 0
+D7
+Text Label 7100 11300 0    50   ~ 0
+D6
+Text Label 7100 11400 0    50   ~ 0
+D5
+Text Label 7100 11500 0    50   ~ 0
+D4
+Text Label 7100 11600 0    50   ~ 0
+D3
+Text Label 7100 10600 0    50   ~ 0
+A11
+Text Label 7100 10700 0    50   ~ 0
+A12
+Text Label 7100 11000 0    50   ~ 0
+A13
+Text Label 7100 10800 0    50   ~ 0
+A14
+Text Label 7100 10500 0    50   ~ 0
+A16
+Text Label 7100 10400 0    50   ~ 0
+A17
+Text Label 7100 13700 0    50   ~ 0
+D7
+Text Label 7100 13800 0    50   ~ 0
+D6
+Text Label 7100 13900 0    50   ~ 0
+D5
+Text Label 7100 14000 0    50   ~ 0
+D4
+Text Label 7100 14100 0    50   ~ 0
+D3
+Text Label 7100 13100 0    50   ~ 0
+A11
+Text Label 7100 13200 0    50   ~ 0
+A12
+Text Label 7100 13500 0    50   ~ 0
+A13
+Text Label 7100 13300 0    50   ~ 0
+A14
+Text Label 7100 13000 0    50   ~ 0
+A16
+Text Label 7100 12900 0    50   ~ 0
+A17
+Text Label 7100 16200 0    50   ~ 0
+D7
+Text Label 7100 16300 0    50   ~ 0
+D6
+Text Label 7100 16400 0    50   ~ 0
+D5
+Text Label 7100 16500 0    50   ~ 0
+D4
+Text Label 7100 16600 0    50   ~ 0
+D3
+Text Label 7100 15600 0    50   ~ 0
+A11
+Text Label 7100 15700 0    50   ~ 0
+A12
+Text Label 7100 16000 0    50   ~ 0
+A13
+Text Label 7100 15800 0    50   ~ 0
+A14
+Text Label 7100 15500 0    50   ~ 0
+A16
+Text Label 7100 15400 0    50   ~ 0
+A17
+Text Label 7100 18750 0    50   ~ 0
+D7
+Text Label 7100 18850 0    50   ~ 0
+D6
+Text Label 7100 18950 0    50   ~ 0
+D5
+Text Label 7100 19050 0    50   ~ 0
+D4
+Text Label 7100 19150 0    50   ~ 0
+D3
+Text Label 7100 18150 0    50   ~ 0
+A11
+Text Label 7100 18250 0    50   ~ 0
+A12
+Text Label 7100 18550 0    50   ~ 0
+A13
+Text Label 7100 18350 0    50   ~ 0
+A14
+Text Label 7100 18050 0    50   ~ 0
+A16
+Text Label 7100 17950 0    50   ~ 0
+A17
+Text Label 7100 21200 0    50   ~ 0
+D7
+Text Label 7100 21300 0    50   ~ 0
+D6
+Text Label 7100 21400 0    50   ~ 0
+D5
+Text Label 7100 21500 0    50   ~ 0
+D4
+Text Label 7100 21600 0    50   ~ 0
+D3
+Text Label 7100 20600 0    50   ~ 0
+A11
+Text Label 7100 20700 0    50   ~ 0
+A12
+Text Label 7100 21000 0    50   ~ 0
+A13
+Text Label 7100 20800 0    50   ~ 0
+A14
+Text Label 7100 20500 0    50   ~ 0
+A16
+Text Label 7100 20400 0    50   ~ 0
+A17
 Wire Bus Line
 	2850 850  2850 4500
 Wire Bus Line
@@ -1073,7 +1609,7 @@ Wire Bus Line
 Wire Bus Line
 	2850 4500 2850 22050
 Wire Bus Line
-	7450 800  7450 22100
-Wire Bus Line
 	3500 850  3500 22100
+Wire Bus Line
+	7450 800  7450 22100
 $EndSCHEMATC
