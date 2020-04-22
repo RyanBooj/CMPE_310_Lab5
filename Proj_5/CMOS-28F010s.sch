@@ -13,9 +13,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 3400 13850 1    256  ~ 0
+Text Notes 11750 2500 3    256  ~ 0
 Low Bank\n
-Text Notes 3350 2850 1    256  ~ 0
+Text Notes 10000 2500 3    256  ~ 0
 High Bank
 Entry Wire Line
 	3500 17650 3600 17750

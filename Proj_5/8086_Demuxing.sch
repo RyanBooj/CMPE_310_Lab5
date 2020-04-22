@@ -774,4 +774,6 @@ F 3 "" H 10750 11850 50  0001 C CNN
 	1    10750 11850
 	0    1    1    0   
 $EndComp
+Text HLabel 7150 7200 0    50   Input ~ 0
+CLK
 $EndSCHEMATC
