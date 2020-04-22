@@ -310,8 +310,6 @@ Entry Wire Line
 Entry Wire Line
 	24550 2600 24650 2700
 Wire Wire Line
-	24650 2700 24950 2700
-Wire Wire Line
 	24650 3000 24950 3000
 Wire Wire Line
 	24650 3100 24950 3100
@@ -387,8 +385,6 @@ Text Label 16800 7000 0    50   ~ 0
 A0
 Text Label 24650 2700 0    50   ~ 0
 A0
-Text Label 24650 3000 0    50   ~ 0
-A3
 Text Label 24650 3100 0    50   ~ 0
 A4
 Text Label 24650 3200 0    50   ~ 0
@@ -611,6 +607,8 @@ F35 "D8" B R 27450 3500 50
 F36 "D9" B R 27450 3600 50 
 F37 "D10" B R 27450 3700 50 
 F38 "WE" I R 27450 4400 50 
+F39 "A1" I L 24950 2800 50 
+F40 "A2" I L 24950 2900 50 
 $EndSheet
 Wire Wire Line
 	27900 4400 27450 4400
@@ -651,6 +649,18 @@ Wire Wire Line
 	13900 2850 13900 5150
 Wire Wire Line
 	13900 5150 14100 5150
+Text Label 24650 3000 0    50   ~ 0
+A3
+Wire Wire Line
+	24650 2700 24950 2700
+Entry Wire Line
+	24550 2700 24650 2800
+Entry Wire Line
+	24550 2800 24650 2900
+Wire Wire Line
+	24650 2800 24950 2800
+Wire Wire Line
+	24650 2900 24950 2900
 Wire Bus Line
 	17000 4900 17000 6400
 Wire Bus Line
@@ -659,4 +669,8 @@ Wire Bus Line
 	17000 6900 17000 8800
 Wire Bus Line
 	24550 2600 24550 4500
+Text Label 24650 2800 0    50   ~ 0
+A1
+Text Label 24650 2900 0    50   ~ 0
+A2
 $EndSCHEMATC

@@ -90,40 +90,6 @@ Wire Wire Line
 	7350 3200 6850 3200
 Wire Wire Line
 	7350 3300 6850 3300
-Text HLabel 3600 3700 0    50   Input ~ 0
-A3
-Text HLabel 3600 3600 0    50   Input ~ 0
-A4
-Text HLabel 3600 3500 0    50   Input ~ 0
-A5
-Text HLabel 3600 3400 0    50   Input ~ 0
-A6
-Text HLabel 3600 3300 0    50   Input ~ 0
-A7
-Text HLabel 3600 3200 0    50   Input ~ 0
-A8
-Text HLabel 3600 3100 0    50   Input ~ 0
-A9
-Text HLabel 3600 3000 0    50   Input ~ 0
-A10
-Text HLabel 3600 2900 0    50   Input ~ 0
-A15
-Text HLabel 3600 2800 0    50   Input ~ 0
-A18
-Text HLabel 3600 2700 0    50   Input ~ 0
-A19
-Text HLabel 7350 2900 2    50   Input ~ 0
-A17
-Text HLabel 7350 3000 2    50   Input ~ 0
-A16
-Text HLabel 7350 3100 2    50   Input ~ 0
-A11
-Text HLabel 7350 3200 2    50   Input ~ 0
-A12
-Text HLabel 7350 3300 2    50   Input ~ 0
-A14
-Text HLabel 7350 3500 2    50   Input ~ 0
-A13
 Text HLabel 7250 3700 2    50   BiDi ~ 0
 D15
 Text HLabel 7250 3800 2    50   BiDi ~ 0
@@ -252,40 +218,6 @@ Wire Wire Line
 	7350 5900 6850 5900
 Wire Wire Line
 	7350 6000 6850 6000
-Text HLabel 3600 6400 0    50   Input ~ 0
-A3
-Text HLabel 3600 6300 0    50   Input ~ 0
-A4
-Text HLabel 3600 6200 0    50   Input ~ 0
-A5
-Text HLabel 3600 6100 0    50   Input ~ 0
-A6
-Text HLabel 3600 6000 0    50   Input ~ 0
-A7
-Text HLabel 3600 5900 0    50   Input ~ 0
-A8
-Text HLabel 3600 5800 0    50   Input ~ 0
-A9
-Text HLabel 3600 5700 0    50   Input ~ 0
-A10
-Text HLabel 3600 5600 0    50   Input ~ 0
-A15
-Text HLabel 3600 5500 0    50   Input ~ 0
-A18
-Text HLabel 3600 5400 0    50   Input ~ 0
-A19
-Text HLabel 7350 5600 2    50   Input ~ 0
-A17
-Text HLabel 7350 5700 2    50   Input ~ 0
-A16
-Text HLabel 7350 5800 2    50   Input ~ 0
-A11
-Text HLabel 7350 5900 2    50   Input ~ 0
-A12
-Text HLabel 7350 6000 2    50   Input ~ 0
-A14
-Text HLabel 7350 6200 2    50   Input ~ 0
-A13
 Text HLabel 7250 6400 2    50   BiDi ~ 0
 D7
 Text HLabel 7250 6500 2    50   BiDi ~ 0
@@ -315,26 +247,18 @@ Wire Wire Line
 	7000 2600 7000 4850
 Connection ~ 7000 2600
 Wire Wire Line
-	7350 2700 6850 2700
-Wire Wire Line
-	6850 5400 7450 5400
-Wire Wire Line
 	4500 4100 4500 6800
 Connection ~ 4500 4100
 Wire Wire Line
 	7350 3000 6850 3000
-Text HLabel 6850 6300 2    50   Input ~ 0
-~BLE
-Text Notes 7950 3200 0    197  ~ 0
+Text Notes 7950 2150 0    197  ~ 0
 High Bank
-Text Notes 7950 5700 0    197  ~ 0
+Text Notes 8050 7450 0    197  ~ 0
 Low Bank
-Text HLabel 7350 2700 2    50   Input ~ 0
+Text HLabel 6850 2700 2    50   Input ~ 0
 WE
-Text HLabel 7450 5400 2    50   Input ~ 0
+Text HLabel 6850 5400 2    50   Input ~ 0
 WE
-Text HLabel 6850 3600 2    50   Input ~ 0
-~BHE
 Text HLabel 6850 3400 2    50   Input ~ 0
 ~OE
 Text HLabel 6850 6100 2    50   Input ~ 0
@@ -397,4 +321,107 @@ F 3 "" H 7500 5000 50  0001 C CNN
 	1    7500 5000
 	0    -1   -1   0   
 $EndComp
+Text Notes 3500 7950 0    118  ~ 0
+Address Range: DFFFFh - FFFFFh (917503 - 1048575 dec)
+Wire Wire Line
+	6850 6300 8500 6300
+Wire Wire Line
+	6850 3600 8500 3600
+$Comp
+L Logic_Programmable:PAL16L8 U?
+U 1 1 5EA7EE08
+P 10350 4550
+F 0 "U?" H 10350 5431 50  0000 C CNN
+F 1 "PAL16L8" H 10350 5340 50  0000 C CNN
+F 2 "" H 10350 4550 50  0001 C CNN
+F 3 "" H 10350 4550 50  0001 C CNN
+	1    10350 4550
+	1    0    0    -1  
+$EndComp
+Text HLabel 10850 4050 2    50   Input ~ 0
+A19
+Text HLabel 10850 4150 2    50   Input ~ 0
+A18
+Text HLabel 10850 4250 2    50   Input ~ 0
+A17
+Text HLabel 10850 4350 2    50   Input ~ 0
+~BLE
+Text HLabel 10850 4450 2    50   Input ~ 0
+~BHE
+Wire Wire Line
+	9850 4050 8500 4050
+Wire Wire Line
+	8500 4050 8500 3600
+Wire Wire Line
+	9850 4150 8500 4150
+Wire Wire Line
+	8500 4150 8500 6300
+Text HLabel 3600 6400 0    50   Input ~ 0
+~BHE
+Text HLabel 3600 6300 0    50   Input ~ 0
+A1
+Text HLabel 3600 6200 0    50   Input ~ 0
+A2
+Text HLabel 3600 6100 0    50   Input ~ 0
+A3
+Text HLabel 3600 6000 0    50   Input ~ 0
+A4
+Text HLabel 3600 5900 0    50   Input ~ 0
+A5
+Text HLabel 3600 5800 0    50   Input ~ 0
+A6
+Text HLabel 3600 5700 0    50   Input ~ 0
+A7
+Text HLabel 7350 5800 2    50   Input ~ 0
+A8
+Text HLabel 7350 5900 2    50   Input ~ 0
+A9
+Text HLabel 7350 6200 2    50   Input ~ 0
+A10
+Text HLabel 7350 6000 2    50   Input ~ 0
+A11
+Text HLabel 3600 5600 0    50   Input ~ 0
+A12
+Text HLabel 7350 5700 2    50   Input ~ 0
+A13
+Text HLabel 7350 5600 2    50   Input ~ 0
+A14
+Text HLabel 3600 5500 0    50   Input ~ 0
+A15
+Text HLabel 3600 5400 0    50   Input ~ 0
+A16
+Text HLabel 3600 3700 0    50   Input ~ 0
+~BHE
+Text HLabel 3600 3600 0    50   Input ~ 0
+A1
+Text HLabel 3600 3500 0    50   Input ~ 0
+A2
+Text HLabel 3600 3400 0    50   Input ~ 0
+A3
+Text HLabel 3600 3300 0    50   Input ~ 0
+A4
+Text HLabel 3600 3200 0    50   Input ~ 0
+A5
+Text HLabel 3600 3100 0    50   Input ~ 0
+A6
+Text HLabel 3600 3000 0    50   Input ~ 0
+A7
+Text HLabel 3600 2900 0    50   Input ~ 0
+A12
+Text HLabel 3600 2800 0    50   Input ~ 0
+A15
+Text HLabel 3600 2700 0    50   Input ~ 0
+A16
+Text HLabel 7350 3100 2    50   Input ~ 0
+A8
+Text HLabel 7350 3200 2    50   Input ~ 0
+A9
+Text HLabel 7350 3500 2    50   Input ~ 0
+A10
+Text HLabel 7350 3300 2    50   Input ~ 0
+A11
+Text HLabel 7350 3000 2    50   Input ~ 0
+A13
+Text HLabel 7350 2900 2    50   Input ~ 0
+A14
 $EndSCHEMATC
