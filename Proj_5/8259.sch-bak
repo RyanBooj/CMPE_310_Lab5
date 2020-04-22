@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Interface:8259 U?
+L Interface:8259 U15
 U 1 1 5EA9E11F
 P 5950 3750
-F 0 "U?" H 5950 5031 50  0000 C CNN
+F 0 "U15" H 5950 5031 50  0000 C CNN
 F 1 "8259" H 5950 4940 50  0000 C CNN
 F 2 "Package_DIP:DIP-28_W15.24mm" H 5950 3750 50  0001 C CIN
 F 3 "http://pdos.csail.mit.edu/6.828/2005/readings/hardware/8259A.pdf" H 5950 3750 50  0001 C CNN

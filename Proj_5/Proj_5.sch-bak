@@ -34,6 +34,7 @@ F0 "CMOS Flash" 157
 F1 "CMOS-28F010s.sch" 157
 F2 "AddressBus" I L 24950 3150 50 
 F3 "DataBus" B L 24950 3400 50 
+F4 "BHE\\" I L 24950 3650 50 
 $EndSheet
 $Sheet
 S 24850 7300 2600 2600

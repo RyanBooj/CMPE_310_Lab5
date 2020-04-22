@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Interface:8255 U?
+L Interface:8255 U1
 U 1 1 5E9F9AC1
 P 4450 5450
-F 0 "U?" H 4450 7231 50  0000 C CNN
+F 0 "U1" H 4450 7231 50  0000 C CNN
 F 1 "8255" H 4450 7140 50  0000 C CNN
 F 2 "Package_DIP:DIP-40_W15.24mm" H 4450 5750 50  0001 C CNN
 F 3 "http://aturing.umcs.maine.edu/~meadow/courses/cos335/Intel8255A.pdf" H 4450 5750 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "http://aturing.umcs.maine.edu/~meadow/courses/cos335/Intel8255A.pdf" H 4450
 	1    0    0    -1  
 $EndComp
 $Comp
-L Interface:8255 U?
+L Interface:8255 U2
 U 1 1 5E9FFD77
 P 8550 5400
-F 0 "U?" H 8550 7181 50  0000 C CNN
+F 0 "U2" H 8550 7181 50  0000 C CNN
 F 1 "8255" H 8550 7090 50  0000 C CNN
 F 2 "Package_DIP:DIP-40_W15.24mm" H 8550 5700 50  0001 C CNN
 F 3 "http://aturing.umcs.maine.edu/~meadow/courses/cos335/Intel8255A.pdf" H 8550 5700 50  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "http://aturing.umcs.maine.edu/~meadow/courses/cos335/Intel8255A.pdf" H 8550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Interface:8255 U?
+L Interface:8255 U3
 U 1 1 5EA0128E
 P 12750 5450
-F 0 "U?" H 12750 7231 50  0000 C CNN
+F 0 "U3" H 12750 7231 50  0000 C CNN
 F 1 "8255" H 12750 7140 50  0000 C CNN
 F 2 "Package_DIP:DIP-40_W15.24mm" H 12750 5750 50  0001 C CNN
 F 3 "http://aturing.umcs.maine.edu/~meadow/courses/cos335/Intel8255A.pdf" H 12750 5750 50  0001 C CNN
