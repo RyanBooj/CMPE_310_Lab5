@@ -39,8 +39,6 @@ $EndComp
 Wire Wire Line
 	7350 2900 6850 2900
 Wire Wire Line
-	6850 3000 7350 3000
-Wire Wire Line
 	7350 3500 6850 3500
 Wire Wire Line
 	7250 3800 6850 3800
@@ -92,31 +90,6 @@ Wire Wire Line
 	7350 3200 6850 3200
 Wire Wire Line
 	7350 3300 6850 3300
-Wire Wire Line
-	6850 3600 7750 3600
-Wire Wire Line
-	7750 3600 7750 2800
-Wire Wire Line
-	7550 2000 7850 2000
-Wire Wire Line
-	7850 2000 7850 2200
-Wire Wire Line
-	7550 2100 7750 2100
-Wire Wire Line
-	7750 2100 7750 2200
-Wire Wire Line
-	7550 2200 7650 2200
-$Comp
-L 74xGxx:74LVC1G10 U5
-U 1 1 5EB89412
-P 7750 2500
-F 0 "U5" V 7704 2677 50  0000 L CNN
-F 1 "74LVC1G10" V 7795 2677 50  0000 L CNN
-F 2 "" H 7750 2500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 7750 2500 50  0001 C CNN
-	1    7750 2500
-	0    1    1    0   
-$EndComp
 Text HLabel 3600 3700 0    50   Input ~ 0
 A3
 Text HLabel 3600 3600 0    50   Input ~ 0
@@ -151,34 +124,24 @@ Text HLabel 7350 3300 2    50   Input ~ 0
 A14
 Text HLabel 7350 3500 2    50   Input ~ 0
 A13
-Text HLabel 7550 2000 0    50   Input ~ 0
-A0
-Text HLabel 7550 2100 0    50   Input ~ 0
-A1
-Text HLabel 7550 2200 0    50   Input ~ 0
-A2
 Text HLabel 7250 3700 2    50   BiDi ~ 0
-D7
+D15
 Text HLabel 7250 3800 2    50   BiDi ~ 0
-D6
+D14
 Text HLabel 7250 3900 2    50   BiDi ~ 0
-D5
+D13
 Text HLabel 7250 4000 2    50   BiDi ~ 0
-D4
+D12
 Text HLabel 7250 4100 2    50   BiDi ~ 0
-D3
+D11
 Text HLabel 2950 3800 0    50   BiDi ~ 0
-D0
+D8
 Text HLabel 2950 3900 0    50   BiDi ~ 0
-D1
+D9
 Text HLabel 2950 4000 0    50   BiDi ~ 0
-D2
-Text HLabel 6850 2700 2    50   Input ~ 0
-~WE
+D10
 Wire Wire Line
 	3600 3700 4650 3700
-Text HLabel 6850 3400 2    50   Input ~ 0
-~OE
 $Comp
 L power:VCC #PWR0107
 U 1 1 5EBE8B53
@@ -225,4 +188,155 @@ Wire Wire Line
 Connection ~ 7000 2050
 Wire Wire Line
 	7000 2050 7000 2150
+Wire Wire Line
+	3600 5400 4650 5400
+Wire Wire Line
+	3600 5500 4650 5500
+Wire Wire Line
+	3600 5600 4650 5600
+Wire Wire Line
+	3600 5700 4650 5700
+Wire Wire Line
+	3600 6100 4650 6100
+Wire Wire Line
+	3600 6200 4650 6200
+$Comp
+L 28F010:28F010 U?
+U 1 1 5EA1E756
+P 4650 5300
+F 0 "U?" H 5750 5687 60  0000 C CNN
+F 1 "28F010" H 5750 5581 60  0000 C CNN
+F 2 "28F010" H 5750 5540 60  0001 C CNN
+F 3 "" H 4650 5300 60  0000 C CNN
+	1    4650 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 5600 6850 5600
+Wire Wire Line
+	6850 5700 7350 5700
+Wire Wire Line
+	7350 6200 6850 6200
+Wire Wire Line
+	7250 6500 6850 6500
+Wire Wire Line
+	7250 6600 6850 6600
+Wire Wire Line
+	7250 6700 6850 6700
+Wire Wire Line
+	7250 6800 6850 6800
+Wire Wire Line
+	7250 6400 6850 6400
+Wire Wire Line
+	2950 6500 4650 6500
+Wire Wire Line
+	2950 6600 4650 6600
+Wire Wire Line
+	2950 6700 4650 6700
+Wire Wire Line
+	6850 5300 7000 5300
+Wire Wire Line
+	4500 6800 4650 6800
+NoConn ~ 6850 5500
+Wire Wire Line
+	3600 6300 4650 6300
+Wire Wire Line
+	3600 6000 4650 6000
+Wire Wire Line
+	4650 5800 3600 5800
+Wire Wire Line
+	4650 5900 3600 5900
+Wire Wire Line
+	7350 5800 6850 5800
+Wire Wire Line
+	7350 5900 6850 5900
+Wire Wire Line
+	7350 6000 6850 6000
+Text HLabel 3600 6400 0    50   Input ~ 0
+A3
+Text HLabel 3600 6300 0    50   Input ~ 0
+A4
+Text HLabel 3600 6200 0    50   Input ~ 0
+A5
+Text HLabel 3600 6100 0    50   Input ~ 0
+A6
+Text HLabel 3600 6000 0    50   Input ~ 0
+A7
+Text HLabel 3600 5900 0    50   Input ~ 0
+A8
+Text HLabel 3600 5800 0    50   Input ~ 0
+A9
+Text HLabel 3600 5700 0    50   Input ~ 0
+A10
+Text HLabel 3600 5600 0    50   Input ~ 0
+A15
+Text HLabel 3600 5500 0    50   Input ~ 0
+A18
+Text HLabel 3600 5400 0    50   Input ~ 0
+A19
+Text HLabel 7350 5600 2    50   Input ~ 0
+A17
+Text HLabel 7350 5700 2    50   Input ~ 0
+A16
+Text HLabel 7350 5800 2    50   Input ~ 0
+A11
+Text HLabel 7350 5900 2    50   Input ~ 0
+A12
+Text HLabel 7350 6000 2    50   Input ~ 0
+A14
+Text HLabel 7350 6200 2    50   Input ~ 0
+A13
+Text HLabel 7250 6400 2    50   BiDi ~ 0
+D7
+Text HLabel 7250 6500 2    50   BiDi ~ 0
+D6
+Text HLabel 7250 6600 2    50   BiDi ~ 0
+D5
+Text HLabel 7250 6700 2    50   BiDi ~ 0
+D4
+Text HLabel 7250 6800 2    50   BiDi ~ 0
+D3
+Text HLabel 2950 6500 0    50   BiDi ~ 0
+D0
+Text HLabel 2950 6600 0    50   BiDi ~ 0
+D1
+Text HLabel 2950 6700 0    50   BiDi ~ 0
+D2
+Wire Wire Line
+	3600 6400 4650 6400
+Wire Wire Line
+	7000 4850 4650 4850
+Wire Wire Line
+	4650 4850 4650 5300
+Connection ~ 7000 4850
+Wire Wire Line
+	7000 4850 7000 5300
+Wire Wire Line
+	7000 2600 7000 4850
+Connection ~ 7000 2600
+Wire Wire Line
+	7350 2700 6850 2700
+Wire Wire Line
+	6850 5400 7450 5400
+Wire Wire Line
+	4500 4100 4500 6800
+Connection ~ 4500 4100
+Wire Wire Line
+	7350 3000 6850 3000
+Text HLabel 6850 6300 2    50   Input ~ 0
+~BLE
+Text Notes 7950 3200 0    197  ~ 0
+High Bank
+Text Notes 7950 5700 0    197  ~ 0
+Low Bank
+Text HLabel 7350 2700 2    50   Input ~ 0
+WE
+Text HLabel 7450 5400 2    50   Input ~ 0
+WE
+Text HLabel 6850 3600 2    50   Input ~ 0
+~BHE
+Text HLabel 6850 3400 2    50   Input ~ 0
+~OE
+Text HLabel 6850 6100 2    50   Input ~ 0
+~OE
 $EndSCHEMATC
