@@ -661,6 +661,10 @@ Wire Wire Line
 	24650 2800 24950 2800
 Wire Wire Line
 	24650 2900 24950 2900
+Text Label 24650 2800 0    50   ~ 0
+A1
+Text Label 24650 2900 0    50   ~ 0
+A2
 Wire Bus Line
 	17000 4900 17000 6400
 Wire Bus Line
@@ -669,8 +673,4 @@ Wire Bus Line
 	17000 6900 17000 8800
 Wire Bus Line
 	24550 2600 24550 4500
-Text Label 24650 2800 0    50   ~ 0
-A1
-Text Label 24650 2900 0    50   ~ 0
-A2
 $EndSCHEMATC
