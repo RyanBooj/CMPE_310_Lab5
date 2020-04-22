@@ -66,7 +66,7 @@ $EndSheet
 Text Notes 14950 18250 0    169  ~ 0
 Ryan Bugianesi and Collin Mood\n
 $Sheet
-S 4500 2450 1750 3750
+S 2800 1250 2500 5600
 U 5E9F3A3D
 F0 "8086 and Demultiplexed Addresses" 157
 F1 "8086_Demuxing.sch" 157
