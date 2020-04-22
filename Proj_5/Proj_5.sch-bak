@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
-Sheet 1 11
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -40,22 +40,10 @@ F0 "16550 UART" 256
 F1 "16550UART.sch" 256
 $EndSheet
 $Sheet
-S 14000 17550 3250 2700
-U 5EA99014
-F0 "8259" 256
-F1 "8259.sch" 256
-$EndSheet
-$Sheet
-S 24750 17250 3400 2350
-U 5EA99146
-F0 "8254" 256
-F1 "8254.sch" 256
-$EndSheet
-$Sheet
-S 24750 12500 3050 2250
+S 24750 12500 4650 3650
 U 5EA993EC
-F0 "8279" 256
-F1 "8279.sch" 256
+F0 "8279, 8259, 8254" 256
+F1 "8279_59_54.sch" 256
 $EndSheet
 Text Notes 28400 22050 0    169  ~ 0
 Ryan Bugianesi and Collin Mood\n

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 4 11
+Sheet 4 9
 Title ""
 Date ""
 Rev ""
@@ -934,14 +934,14 @@ Wire Wire Line
 Connection ~ 8400 12600
 Wire Bus Line
 	8400 12600 11450 12600
+Text Notes 3500 5250 0    197  ~ 0
+Low Bank
+Text Notes 8450 5250 0    197  ~ 0
+High Bank
 Wire Bus Line
 	3350 5600 3350 12600
 Wire Bus Line
 	8400 5600 8400 12600
 Wire Bus Line
 	3350 12600 8400 12600
-Text Notes 3500 5250 0    197  ~ 0
-Low Bank
-Text Notes 8450 5250 0    197  ~ 0
-High Bank
 $EndSCHEMATC
