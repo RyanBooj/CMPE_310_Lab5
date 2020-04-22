@@ -14,9 +14,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Intel:8086_Min_Mode U?
+L Proj_5-rescue:8086_Min_Mode-MCU_Intel U?
 U 1 1 5E9F413F
 P 7850 8700
+AR Path="/5E9F413F" Ref="U?"  Part="1" 
+AR Path="/5E9F3A3D/5E9F413F" Ref="U?"  Part="1" 
 F 0 "U?" H 7850 10681 50  0000 C CNN
 F 1 "8086_Min_Mode" H 7850 10590 50  0000 C CNN
 F 2 "Package_DIP:DIP-40_W15.24mm" H 7900 8800 50  0001 C CIN
