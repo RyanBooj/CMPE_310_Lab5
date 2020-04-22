@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 9 11
+Sheet 8 11
 Title ""
 Date ""
 Rev ""
@@ -529,12 +529,10 @@ Wire Wire Line
 	11050 3500 11050 3650
 Connection ~ 11050 3650
 Wire Wire Line
-	11050 3650 13050 3650
+	11050 3650 12050 3650
 Wire Wire Line
 	11050 4000 11050 4150
 Connection ~ 11050 4150
-Wire Wire Line
-	11050 4150 13050 4150
 Wire Wire Line
 	11050 4500 11050 4650
 Connection ~ 11050 4650
@@ -575,4 +573,29 @@ Wire Wire Line
 Wire Wire Line
 	14100 5150 14100 5000
 Connection ~ 13050 5150
+Wire Wire Line
+	11050 4150 12050 4150
+Wire Wire Line
+	12050 4150 12050 4000
+Connection ~ 12050 4150
+Wire Wire Line
+	12050 4150 13050 4150
+Wire Wire Line
+	12050 3650 12050 3500
+Connection ~ 12050 3650
+Wire Wire Line
+	12050 3650 13050 3650
+$Comp
+L Device:C C?
+U 1 1 5EA655BD
+P 6550 3000
+AR Path="/5EA98353/5EA655BD" Ref="C?"  Part="1" 
+AR Path="/5EA993EC/5EA655BD" Ref="C?"  Part="1" 
+F 0 "C?" V 6298 3000 50  0000 C CNN
+F 1 "0.1uF" V 6389 3000 50  0000 C CNN
+F 2 "" H 6588 2850 50  0001 C CNN
+F 3 "~" H 6550 3000 50  0001 C CNN
+	1    6550 3000
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

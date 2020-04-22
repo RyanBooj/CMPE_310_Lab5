@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 4 11
+Sheet 3 11
 Title ""
 Date ""
 Rev ""
@@ -45,5 +45,38 @@ F 2 "Package_DIP:DIP-40_W15.24mm" H 12750 5750 50  0001 C CNN
 F 3 "http://aturing.umcs.maine.edu/~meadow/courses/cos335/Intel8255A.pdf" H 12750 5750 50  0001 C CNN
 	1    12750 5450
 	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EA6A7B2
+P 4750 3650
+F 0 "C?" V 4498 3650 50  0000 C CNN
+F 1 "0.1uF" V 4589 3650 50  0000 C CNN
+F 2 "" H 4788 3500 50  0001 C CNN
+F 3 "~" H 4750 3650 50  0001 C CNN
+	1    4750 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EA6AA16
+P 8900 3500
+F 0 "C?" V 8648 3500 50  0000 C CNN
+F 1 "0.1uF" V 8739 3500 50  0000 C CNN
+F 2 "" H 8938 3350 50  0001 C CNN
+F 3 "~" H 8900 3500 50  0001 C CNN
+	1    8900 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EA6B47A
+P 13150 3650
+F 0 "C?" V 12898 3650 50  0000 C CNN
+F 1 "0.1uF" V 12989 3650 50  0000 C CNN
+F 2 "" H 13188 3500 50  0001 C CNN
+F 3 "~" H 13150 3650 50  0001 C CNN
+	1    13150 3650
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC

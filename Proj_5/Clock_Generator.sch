@@ -332,4 +332,15 @@ Text HLabel 1400 1800 0    50   Input ~ 0
 CLK_RES
 Text HLabel 3650 1800 0    50   Output ~ 0
 CLK_OUT
+$Comp
+L Device:C C?
+U 1 1 5EA697DA
+P 2150 1250
+F 0 "C?" V 1898 1250 50  0000 C CNN
+F 1 "0.1uF" V 1989 1250 50  0000 C CNN
+F 2 "" H 2188 1100 50  0001 C CNN
+F 3 "~" H 2150 1250 50  0001 C CNN
+	1    2150 1250
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

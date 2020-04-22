@@ -271,8 +271,6 @@ Wire Wire Line
 Wire Wire Line
 	14000 5000 14100 5000
 Wire Bus Line
-	19250 2600 24550 2600
-Wire Bus Line
 	19250 2600 19250 5000
 Entry Wire Line
 	24550 4500 24650 4600
@@ -507,7 +505,7 @@ D14
 Text Label 16750 6500 0    50   ~ 0
 D15
 Wire Wire Line
-	27900 5100 17200 5100
+	27900 5100 24300 5100
 Wire Wire Line
 	17200 5100 17200 9800
 Wire Wire Line
@@ -517,7 +515,7 @@ Wire Wire Line
 Wire Wire Line
 	17300 10000 17300 5200
 Wire Wire Line
-	17300 5200 28000 5200
+	17300 5200 24450 5200
 Wire Wire Line
 	28000 5200 28000 4600
 Wire Wire Line
@@ -622,11 +620,30 @@ Wire Wire Line
 Wire Wire Line
 	27800 4500 27800 5300
 Wire Wire Line
-	27800 5300 17400 5300
+	27800 5300 24600 5300
 Wire Wire Line
 	17400 5300 17400 9700
 Wire Wire Line
 	17400 9700 16600 9700
+Wire Wire Line
+	24600 5300 24600 7450
+Connection ~ 24600 5300
+Wire Wire Line
+	24600 5300 17400 5300
+Wire Wire Line
+	24450 5200 24450 7550
+Connection ~ 24450 5200
+Wire Wire Line
+	24450 5200 28000 5200
+Wire Wire Line
+	24300 5100 24300 7750
+Wire Wire Line
+	24300 7750 24350 7750
+Connection ~ 24300 5100
+Wire Wire Line
+	24300 5100 17200 5100
+Wire Bus Line
+	19250 2600 24550 2600
 Wire Bus Line
 	17000 4900 17000 6400
 Wire Bus Line

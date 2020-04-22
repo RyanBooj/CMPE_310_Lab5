@@ -184,7 +184,7 @@ Wire Wire Line
 	4650 2150 4650 2600
 Connection ~ 7000 2150
 Wire Wire Line
-	7000 2150 7000 2600
+	7000 2150 7000 2300
 Connection ~ 7000 2050
 Wire Wire Line
 	7000 2050 7000 2150
@@ -310,7 +310,7 @@ Wire Wire Line
 	4650 4850 4650 5300
 Connection ~ 7000 4850
 Wire Wire Line
-	7000 4850 7000 5300
+	7000 4850 7000 5000
 Wire Wire Line
 	7000 2600 7000 4850
 Connection ~ 7000 2600
@@ -339,4 +339,62 @@ Text HLabel 6850 3400 2    50   Input ~ 0
 ~OE
 Text HLabel 6850 6100 2    50   Input ~ 0
 ~OE
+$Comp
+L Device:C C?
+U 1 1 5EA60943
+P 7400 2300
+AR Path="/5EA98353/5EA60943" Ref="C?"  Part="1" 
+AR Path="/5EA045EA/5EA60943" Ref="C?"  Part="1" 
+F 0 "C?" V 7148 2300 50  0000 C CNN
+F 1 "0.1uF" V 7239 2300 50  0000 C CNN
+F 2 "" H 7438 2150 50  0001 C CNN
+F 3 "~" H 7400 2300 50  0001 C CNN
+	1    7400 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EA62C10
+P 7350 5000
+AR Path="/5EA98353/5EA62C10" Ref="C?"  Part="1" 
+AR Path="/5EA045EA/5EA62C10" Ref="C?"  Part="1" 
+F 0 "C?" V 7098 5000 50  0000 C CNN
+F 1 "0.1uF" V 7189 5000 50  0000 C CNN
+F 2 "" H 7388 4850 50  0001 C CNN
+F 3 "~" H 7350 5000 50  0001 C CNN
+	1    7350 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7200 5000 7000 5000
+Connection ~ 7000 5000
+Wire Wire Line
+	7000 5000 7000 5300
+Wire Wire Line
+	7250 2300 7000 2300
+Connection ~ 7000 2300
+Wire Wire Line
+	7000 2300 7000 2600
+$Comp
+L power:GND #PWR?
+U 1 1 5EADCED2
+P 7550 2300
+F 0 "#PWR?" H 7550 2050 50  0001 C CNN
+F 1 "GND" H 7555 2127 50  0000 C CNN
+F 2 "" H 7550 2300 50  0001 C CNN
+F 3 "" H 7550 2300 50  0001 C CNN
+	1    7550 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EADF0AF
+P 7500 5000
+F 0 "#PWR?" H 7500 4750 50  0001 C CNN
+F 1 "GND" H 7505 4827 50  0000 C CNN
+F 2 "" H 7500 5000 50  0001 C CNN
+F 3 "" H 7500 5000 50  0001 C CNN
+	1    7500 5000
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

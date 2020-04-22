@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 11 11
+Sheet 10 11
 Title ""
 Date ""
 Rev ""
@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L max235cpg:max235cpg U26
-U 1 1 5EAF79CF
-P 6100 3900
-F 0 "U26" H 7400 4287 60  0000 C CNN
-F 1 "max235cpg" H 7400 4181 60  0000 C CNN
-F 2 "max235cpg" H 7400 4140 60  0001 C CNN
-F 3 "" H 6100 3900 60  0000 C CNN
-	1    6100 3900
-	1    0    0    -1  
-$EndComp
 $Comp
 L LCD4x20:LCD4x20 DS1
 U 1 1 5EAFDAD4
@@ -87,6 +76,34 @@ F 1 "DSUB-9" H 9178 7897 60  0000 L CNN
 F 2 "DSUB-9" H 8950 7990 60  0001 C CNN
 F 3 "" H 8350 8350 60  0000 C CNN
 	1    8350 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EA6A56C
+P 5800 5350
+AR Path="/5EA98353/5EA6A56C" Ref="C?"  Part="1" 
+AR Path="/5EAF7226/5EA6A56C" Ref="C?"  Part="1" 
+F 0 "C?" V 5548 5350 50  0000 C CNN
+F 1 "0.1uF" V 5639 5350 50  0000 C CNN
+F 2 "" H 5838 5200 50  0001 C CNN
+F 3 "~" H 5800 5350 50  0001 C CNN
+	1    5800 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 5200 5800 5000
+Wire Wire Line
+	5800 5000 6100 5000
+$Comp
+L power:GND #PWR?
+U 1 1 5EAAD1B7
+P 5800 5500
+F 0 "#PWR?" H 5800 5250 50  0001 C CNN
+F 1 "GND" H 5805 5327 50  0000 C CNN
+F 2 "" H 5800 5500 50  0001 C CNN
+F 3 "" H 5800 5500 50  0001 C CNN
+	1    5800 5500
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
