@@ -988,8 +988,6 @@ Text HLabel 5950 7800 0    50   Input ~ 0
 Wire Wire Line
 	5550 5050 4700 5050
 Wire Wire Line
-	4700 550  14100 550 
-Wire Wire Line
 	7150 8100 7700 8100
 Wire Wire Line
 	7700 8100 7700 9300
@@ -1003,8 +1001,6 @@ Wire Wire Line
 	10900 1800 7050 1800
 Wire Wire Line
 	10900 600  10900 1800
-Wire Wire Line
-	14100 600  14100 1850
 Wire Wire Line
 	4700 550  4700 5050
 Wire Wire Line
@@ -1062,7 +1058,7 @@ L Device:R R?
 U 1 1 5F0F3FBB
 P 10550 8000
 F 0 "R?" H 10620 8046 50  0000 L CNN
-F 1 "R" H 10620 7955 50  0000 L CNN
+F 1 "1kOhm" H 10620 7955 50  0000 L CNN
 F 2 "" V 10480 8000 50  0001 C CNN
 F 3 "~" H 10550 8000 50  0001 C CNN
 	1    10550 8000
@@ -1142,4 +1138,15 @@ Wire Wire Line
 	6550 6150 6350 6150
 Text Notes 12550 7100 0    197  ~ 0
 Needs VCC Pins, Headers, Decoding
+Wire Wire Line
+	14100 600  14100 900 
+Wire Wire Line
+	4700 550  13850 550 
+Wire Wire Line
+	13850 550  13850 900 
+Wire Wire Line
+	13850 900  14100 900 
+Connection ~ 14100 900 
+Wire Wire Line
+	14100 900  14100 1850
 $EndSCHEMATC

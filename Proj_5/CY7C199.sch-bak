@@ -665,10 +665,6 @@ Text Label 8550 6100 0    50   ~ 0
 A4
 Text Label 8550 5700 0    50   ~ 0
 A0
-<<<<<<< HEAD
-Connection ~ 8400 12600
-Wire Bus Line
-	8400 12600 11450 12600
 Text Notes 1450 5500 0    197  ~ 0
 Low Bank
 Text Notes 12000 5600 0    197  ~ 0
@@ -750,91 +746,10 @@ Wire Bus Line
 	3350 2650 6150 2650
 Wire Bus Line
 	3350 2650 3350 12600
-=======
-Text Notes 1450 5500 0    197  ~ 0
-Low Bank
-Text Notes 12000 5600 0    197  ~ 0
-High Bank
-Entry Wire Line
-	6150 2650 6250 2750
-Entry Wire Line
-	6050 2650 6150 2750
-Entry Wire Line
-	5950 2650 6050 2750
-Entry Wire Line
-	5850 2650 5950 2750
-Entry Wire Line
-	5750 2650 5850 2750
-Wire Wire Line
-	6250 2750 6250 3100
-Wire Wire Line
-	6150 2750 6150 3100
-Wire Wire Line
-	6050 2750 6050 3100
-Wire Wire Line
-	5850 2750 5850 3100
-Wire Wire Line
-	5950 2750 5950 3100
-Text Label 5850 2750 3    50   ~ 0
-A15
-Text Label 5950 2750 3    50   ~ 0
-A16
-Text Label 6050 2750 3    50   ~ 0
-A17
-Text Label 6150 2750 3    50   ~ 0
-A18
-Text Label 6250 2750 3    50   ~ 0
-A19
-Wire Wire Line
-	6250 4100 6250 5500
-Wire Wire Line
-	6250 5500 9350 5500
-Wire Wire Line
-	9350 7300 9850 7300
-Wire Wire Line
-	9350 5500 9350 7300
-Wire Wire Line
-	6150 4100 6150 5600
-Wire Wire Line
-	6150 5600 9400 5600
-Wire Wire Line
-	9400 5600 9400 10900
-Wire Wire Line
-	9400 10900 9850 10900
-Wire Wire Line
-	6050 4100 6050 11750
-Wire Wire Line
-	6050 11750 4650 11750
-Wire Wire Line
-	4650 11750 4650 10900
-Wire Wire Line
-	4650 10900 4800 10900
-Wire Wire Line
-	5950 4100 5950 4600
-Wire Wire Line
-	5950 4600 4650 4600
-Wire Wire Line
-	4650 4600 4650 7300
-Wire Wire Line
-	4650 7300 4800 7300
-$Comp
-L Logic_Programmable:PAL16L8 U7
-U 1 1 5EA15772
-P 5750 3600
-F 0 "U7" H 5750 4481 50  0000 C CNN
-F 1 "PAL16L8" H 5750 4390 50  0000 C CNN
-F 2 "" H 5750 3600 50  0001 C CNN
-F 3 "" H 5750 3600 50  0001 C CNN
-	1    5750 3600
-	0    1    1    0   
-$EndComp
 Wire Bus Line
-	3350 2650 6150 2650
-Wire Bus Line
-	3350 2650 3350 12600
+	0    0    0    0   
 Wire Bus Line
 	3350 12600 8400 12600
->>>>>>> 0d67f04eaf822bf37fe94ffede23244ba18eb72a
 Wire Bus Line
 	8400 5600 8400 12600
 Wire Bus Line

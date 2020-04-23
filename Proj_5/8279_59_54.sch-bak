@@ -586,40 +586,16 @@ Connection ~ 12050 3650
 Wire Wire Line
 	12050 3650 13050 3650
 $Comp
-<<<<<<< HEAD
-=======
-L Device:C C?
-U 1 1 5EA655BD
-P 6550 3000
-AR Path="/5EA98353/5EA655BD" Ref="C?"  Part="1" 
-AR Path="/5EA993EC/5EA655BD" Ref="C11"  Part="1" 
-F 0 "C11" V 6298 3000 50  0000 C CNN
-F 1 "0.1uF" V 6389 3000 50  0000 C CNN
-F 2 "" H 6588 2850 50  0001 C CNN
-F 3 "~" H 6550 3000 50  0001 C CNN
-	1    6550 3000
-	0    1    1    0   
-$EndComp
-$Comp
->>>>>>> 0d67f04eaf822bf37fe94ffede23244ba18eb72a
 L Timer:8254 U?
 U 1 1 5EA19E00
 P 6550 7500
 AR Path="/5EA99146/5EA19E00" Ref="U?"  Part="1" 
 AR Path="/5EA993EC/5EA19E00" Ref="U11"  Part="1" 
-<<<<<<< HEAD
 F 0 "U11" H 6550 8681 50  0000 C CNN
 F 1 "8254" H 6550 8590 50  0000 C CNN
 F 2 "Package_DIP:DIP-24_W15.24mm" H 6600 7750 50  0001 C CNN
 F 3 "http://www.scs.stanford.edu/10wi-cs140/pintos/specs/8254.pdf" H 6100 8400 50  0001 C CNN
 	1    6550 7500
-=======
-F 0 "U11" H 18350 5281 50  0000 C CNN
-F 1 "8254" H 18350 5190 50  0000 C CNN
-F 2 "Package_DIP:DIP-24_W15.24mm" H 18400 4350 50  0001 C CNN
-F 3 "http://www.scs.stanford.edu/10wi-cs140/pintos/specs/8254.pdf" H 17900 5000 50  0001 C CNN
-	1    18350 4100
->>>>>>> 0d67f04eaf822bf37fe94ffede23244ba18eb72a
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -629,19 +605,11 @@ P 6900 6400
 AR Path="/5EA98353/5EA19E06" Ref="C?"  Part="1" 
 AR Path="/5EA99146/5EA19E06" Ref="C?"  Part="1" 
 AR Path="/5EA993EC/5EA19E06" Ref="C13"  Part="1" 
-<<<<<<< HEAD
 F 0 "C13" V 6648 6400 50  0000 C CNN
 F 1 "0.1uF" V 6739 6400 50  0000 C CNN
 F 2 "" H 6938 6250 50  0001 C CNN
 F 3 "~" H 6900 6400 50  0001 C CNN
 	1    6900 6400
-=======
-F 0 "C13" V 18448 2650 50  0000 C CNN
-F 1 "0.1uF" V 18539 2650 50  0000 C CNN
-F 2 "" H 18738 2500 50  0001 C CNN
-F 3 "~" H 18700 2650 50  0001 C CNN
-	1    18700 2650
->>>>>>> 0d67f04eaf822bf37fe94ffede23244ba18eb72a
 	0    1    1    0   
 $EndComp
 $Comp
@@ -650,19 +618,11 @@ U 1 1 5EA1D8D0
 P 6450 2000
 AR Path="/5EA99014/5EA1D8D0" Ref="U?"  Part="1" 
 AR Path="/5EA993EC/5EA1D8D0" Ref="U10"  Part="1" 
-<<<<<<< HEAD
 F 0 "U10" H 6450 3281 50  0000 C CNN
 F 1 "8259" H 6450 3190 50  0000 C CNN
 F 2 "Package_DIP:DIP-28_W15.24mm" H 6450 2000 50  0001 C CIN
 F 3 "http://pdos.csail.mit.edu/6.828/2005/readings/hardware/8259A.pdf" H 6450 2000 50  0001 C CNN
 	1    6450 2000
-=======
-F 0 "U10" H 13850 11131 50  0000 C CNN
-F 1 "8259" H 13850 11040 50  0000 C CNN
-F 2 "Package_DIP:DIP-28_W15.24mm" H 13850 9850 50  0001 C CIN
-F 3 "http://pdos.csail.mit.edu/6.828/2005/readings/hardware/8259A.pdf" H 13850 9850 50  0001 C CNN
-	1    13850 9850
->>>>>>> 0d67f04eaf822bf37fe94ffede23244ba18eb72a
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -672,7 +632,6 @@ P 7100 800
 AR Path="/5EA98353/5EA1D8D6" Ref="C?"  Part="1" 
 AR Path="/5EA99014/5EA1D8D6" Ref="C?"  Part="1" 
 AR Path="/5EA993EC/5EA1D8D6" Ref="C12"  Part="1" 
-<<<<<<< HEAD
 F 0 "C12" V 6848 800 50  0000 C CNN
 F 1 "0.1uF" V 6939 800 50  0000 C CNN
 F 2 "" H 7138 650 50  0001 C CNN
@@ -909,14 +868,6 @@ F 2 "" H 11800 2350 50  0001 C CNN
 F 3 "" H 11800 2350 50  0001 C CNN
 	1    11800 2350
 	1    0    0    -1  
-=======
-F 0 "C12" V 13998 8500 50  0000 C CNN
-F 1 "0.1uF" V 14089 8500 50  0000 C CNN
-F 2 "" H 14288 8350 50  0001 C CNN
-F 3 "~" H 14250 8500 50  0001 C CNN
-	1    14250 8500
-	0    1    1    0   
->>>>>>> 0d67f04eaf822bf37fe94ffede23244ba18eb72a
 $EndComp
 Wire Wire Line
 	12100 2150 12000 2150
@@ -1037,8 +988,6 @@ Text HLabel 5950 7800 0    50   Input ~ 0
 Wire Wire Line
 	5550 5050 4700 5050
 Wire Wire Line
-	4700 550  14100 550 
-Wire Wire Line
 	7150 8100 7700 8100
 Wire Wire Line
 	7700 8100 7700 9300
@@ -1052,8 +1001,6 @@ Wire Wire Line
 	10900 1800 7050 1800
 Wire Wire Line
 	10900 600  10900 1800
-Wire Wire Line
-	14100 600  14100 1850
 Wire Wire Line
 	4700 550  4700 5050
 Wire Wire Line
@@ -1189,4 +1136,17 @@ Wire Wire Line
 Connection ~ 6450 800 
 Wire Wire Line
 	6550 6150 6350 6150
+Text Notes 12550 7100 0    197  ~ 0
+Needs VCC Pins, Headers, Decoding
+Wire Wire Line
+	14100 600  14100 900 
+Wire Wire Line
+	4700 550  13850 550 
+Wire Wire Line
+	13850 550  13850 900 
+Wire Wire Line
+	13850 900  14100 900 
+Connection ~ 14100 900 
+Wire Wire Line
+	14100 900  14100 1850
 $EndSCHEMATC

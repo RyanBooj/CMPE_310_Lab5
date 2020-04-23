@@ -747,11 +747,8 @@ Wire Bus Line
 Wire Bus Line
 	3350 2650 3350 12600
 Wire Bus Line
-<<<<<<< HEAD
-	8400 5600 8400 12600
+	0    0    0    0   
 Wire Bus Line
-	3350 12600 8400 12600
-=======
 	3350 12600 8400 12600
 Wire Bus Line
 	8400 5600 8400 12600
@@ -974,5 +971,4 @@ Entry Wire Line
 	4350 12600 4450 12700
 Entry Wire Line
 	4250 12600 4350 12700
->>>>>>> 0d67f04eaf822bf37fe94ffede23244ba18eb72a
 $EndSCHEMATC

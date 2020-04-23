@@ -800,6 +800,9 @@ Wire Wire Line
 Connection ~ 7900 4850
 Wire Wire Line
 	8300 1800 7950 1800
+Connection ~ 7950 1800
+Wire Wire Line
+	7950 1800 7950 5350
 Wire Bus Line
 	8050 8700 8050 10250
 Wire Bus Line
@@ -808,7 +811,4 @@ Wire Bus Line
 	700  3900 700  8700
 Wire Bus Line
 	700  8700 8050 8700
-Connection ~ 7950 1800
-Wire Wire Line
-	7950 1800 7950 5350
 $EndSCHEMATC
