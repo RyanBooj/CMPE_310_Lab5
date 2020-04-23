@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 15748 23622
 encoding utf-8
-Sheet 8 9
+Sheet 7 9
 Title ""
 Date ""
 Rev ""
@@ -356,7 +356,7 @@ F 1 "PAL16L8" H 10350 5340 50  0000 C CNN
 F 2 "" H 10350 4550 50  0001 C CNN
 F 3 "" H 10350 4550 50  0001 C CNN
 	1    10350 4550
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Text HLabel 10850 4050 2    50   Input ~ 0
 A19
@@ -444,4 +444,6 @@ Text HLabel 7350 3000 2    50   Input ~ 0
 A13
 Text HLabel 7350 2900 2    50   Input ~ 0
 A14
+Text HLabel 10850 4550 2    50   Input ~ 0
+M~IO
 $EndSCHEMATC
