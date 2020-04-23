@@ -207,120 +207,6 @@ Text Notes 3200 1750 0    50   ~ 0
 To 8086\n
 Wire Wire Line
 	3200 1800 3650 1800
-$Comp
-L Switch:SW_SPST SW?
-U 1 1 5EA0B868
-P 6150 2200
-AR Path="/5EA0B868" Ref="SW?"  Part="1" 
-AR Path="/5E9E2E0E/5EA0B868" Ref="SW1"  Part="1" 
-F 0 "SW1" H 6150 2435 50  0000 C CNN
-F 1 "Reset Switch" H 6150 2344 50  0000 C CNN
-F 2 "" H 6150 2200 50  0001 C CNN
-F 3 "~" H 6150 2200 50  0001 C CNN
-	1    6150 2200
-	1    0    0    -1  
-$EndComp
-Connection ~ 5950 2200
-$Comp
-L Device:C C?
-U 1 1 5EA0B86F
-P 5800 2500
-AR Path="/5EA0B86F" Ref="C?"  Part="1" 
-AR Path="/5E9E2E0E/5EA0B86F" Ref="C1"  Part="1" 
-F 0 "C1" V 5548 2500 50  0000 C CNN
-F 1 "10uF" V 5639 2500 50  0000 C CNN
-F 2 "" H 5838 2350 50  0001 C CNN
-F 3 "~" H 5800 2500 50  0001 C CNN
-	1    5800 2500
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5950 2200 5950 2500
-$Comp
-L power:GND #PWR?
-U 1 1 5EA0B876
-P 5650 2500
-AR Path="/5EA0B876" Ref="#PWR?"  Part="1" 
-AR Path="/5E9E2E0E/5EA0B876" Ref="#PWR0105"  Part="1" 
-F 0 "#PWR0105" H 5650 2250 50  0001 C CNN
-F 1 "GND" V 5655 2372 50  0000 R CNN
-F 2 "" H 5650 2500 50  0001 C CNN
-F 3 "" H 5650 2500 50  0001 C CNN
-	1    5650 2500
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6350 2200 6350 2300
-$Comp
-L power:GND #PWR?
-U 1 1 5EA0B87D
-P 6350 2300
-AR Path="/5EA0B87D" Ref="#PWR?"  Part="1" 
-AR Path="/5E9E2E0E/5EA0B87D" Ref="#PWR0106"  Part="1" 
-F 0 "#PWR0106" H 6350 2050 50  0001 C CNN
-F 1 "GND" H 6355 2127 50  0000 C CNN
-F 2 "" H 6350 2300 50  0001 C CNN
-F 3 "" H 6350 2300 50  0001 C CNN
-	1    6350 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RESET_R?
-U 1 1 5EA0B883
-P 5950 1750
-AR Path="/5EA0B883" Ref="RESET_R?"  Part="1" 
-AR Path="/5E9E2E0E/5EA0B883" Ref="RESET_R1"  Part="1" 
-F 0 "RESET_R1" H 6020 1796 50  0000 L CNN
-F 1 "10K ohm" H 6020 1705 50  0000 L CNN
-F 2 "" V 5880 1750 50  0001 C CNN
-F 3 "~" H 5950 1750 50  0001 C CNN
-	1    5950 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3200 2200 5600 2200
-Wire Wire Line
-	5950 1900 5950 2200
-Wire Wire Line
-	5950 1600 5950 1550
-$Comp
-L power:VCC RESET_PWR?
-U 1 1 5EA0B88C
-P 5950 1450
-AR Path="/5EA0B88C" Ref="RESET_PWR?"  Part="1" 
-AR Path="/5E9E2E0E/5EA0B88C" Ref="#RESET_PWR0101"  Part="1" 
-F 0 "#RESET_PWR0101" H 5950 1300 50  0001 C CNN
-F 1 "VCC" H 6038 1487 50  0000 L CNN
-F 2 "" H 5950 1450 50  0001 C CNN
-F 3 "" H 5950 1450 50  0001 C CNN
-	1    5950 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 5EA0B892
-P 5600 2050
-AR Path="/5EA0B892" Ref="D?"  Part="1" 
-AR Path="/5E9E2E0E/5EA0B892" Ref="D1"  Part="1" 
-F 0 "D1" V 5554 2129 50  0000 L CNN
-F 1 "D1" V 5645 2129 50  0000 L CNN
-F 2 "" H 5600 2050 50  0001 C CNN
-F 3 "~" H 5600 2050 50  0001 C CNN
-	1    5600 2050
-	0    1    1    0   
-$EndComp
-Connection ~ 5600 2200
-Wire Wire Line
-	5600 2200 5950 2200
-Wire Wire Line
-	5600 1900 5600 1550
-Wire Wire Line
-	5600 1550 5950 1550
-Connection ~ 5950 1550
-Wire Wire Line
-	5950 1550 5950 1450
-Text Notes 4950 2000 0    50   ~ 0
-Reset Circuit
 NoConn ~ 1800 2000
 NoConn ~ 1800 2100
 NoConn ~ 1800 2500
@@ -329,7 +215,7 @@ NoConn ~ 3200 2500
 NoConn ~ 3200 2400
 NoConn ~ 3200 2000
 Text HLabel 1400 1800 0    50   Input ~ 0
-CLK_RES
+RES_IN
 Text HLabel 3650 1800 0    50   Output ~ 0
 CLK_OUT
 $Comp
@@ -343,4 +229,6 @@ F 3 "~" H 2150 1250 50  0001 C CNN
 	1    2150 1250
 	0    1    1    0   
 $EndComp
+Text HLabel 3200 2200 2    118  Output ~ 0
+RES_OUT
 $EndSCHEMATC
