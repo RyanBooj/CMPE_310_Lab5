@@ -631,10 +631,6 @@ Wire Wire Line
 Wire Wire Line
 	11500 2600 9350 2600
 Wire Wire Line
-	9350 2600 9350 2100
-Wire Wire Line
-	9350 2100 8950 2100
-Wire Wire Line
 	11500 2500 10250 2500
 Wire Wire Line
 	10250 2500 10250 700 
@@ -705,6 +701,10 @@ F 3 "" H 11500 2100 50  0001 C CNN
 	1    11500 2100
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	9350 2600 9350 2800
+Wire Wire Line
+	9350 2800 8950 2800
 Wire Bus Line
 	1500 600  12300 600 
 Wire Bus Line

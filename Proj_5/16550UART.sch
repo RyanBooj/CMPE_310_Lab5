@@ -301,4 +301,156 @@ Text Notes 13100 10400 0    118  ~ 0
 235 Needs Enables But from where
 NoConn ~ 8200 7800
 NoConn ~ 8200 8100
+Text HLabel 8200 7100 0    50   Input ~ 0
+A1
+Text HLabel 8200 7200 0    50   Input ~ 0
+A2
+$Comp
+L Logic_Programmable:PAL16L8 U?
+U 1 1 5EA83B43
+P 5400 7250
+F 0 "U?" H 5400 8131 50  0000 C CNN
+F 1 "PAL16L8" H 5400 8040 50  0000 C CNN
+F 2 "" H 5400 7250 50  0001 C CNN
+F 3 "" H 5400 7250 50  0001 C CNN
+	1    5400 7250
+	1    0    0    -1  
+$EndComp
+Text HLabel 8200 7300 0    50   Input ~ 0
+A3
+Text HLabel 4900 6850 0    50   Input ~ 0
+A4
+Text HLabel 4900 6950 0    50   Input ~ 0
+A5
+Text HLabel 4900 7050 0    50   Input ~ 0
+A6
+Text HLabel 4900 7150 0    50   Input ~ 0
+A7
+Text HLabel 4900 7250 0    50   Input ~ 0
+A8
+Text HLabel 4900 7350 0    50   Input ~ 0
+A9
+Text HLabel 4900 7450 0    50   Input ~ 0
+A10
+Text HLabel 4900 7550 0    50   Input ~ 0
+A11
+Text HLabel 4900 7650 0    50   Input ~ 0
+A12
+Text HLabel 5900 7350 2    50   Input ~ 0
+A13
+Text HLabel 5900 7250 2    50   Input ~ 0
+A14
+Text HLabel 5900 7150 2    50   Input ~ 0
+A15
+Text HLabel 4900 6750 0    50   Input ~ 0
+A0
+$Comp
+L 74xGxx:74AHC1G02 U?
+U 1 1 5EA8FF70
+P 6250 5750
+F 0 "U?" V 6179 5880 50  0000 L CNN
+F 1 "74AHC1G02" V 6270 5880 50  0000 L CNN
+F 2 "" H 6250 5750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 6250 5750 50  0001 C CNN
+	1    6250 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xGxx:74AHC1G02 U?
+U 1 1 5EA96A09
+P 6950 5750
+F 0 "U?" V 6879 5880 50  0000 L CNN
+F 1 "74AHC1G02" V 6970 5880 50  0000 L CNN
+F 2 "" H 6950 5750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 6950 5750 50  0001 C CNN
+	1    6950 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xGxx:74LVC1G08 U?
+U 1 1 5EA99D66
+P 6600 6300
+F 0 "U?" V 6529 6430 50  0000 L CNN
+F 1 "74LVC1G08" V 6620 6430 50  0000 L CNN
+F 2 "" H 6600 6300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 6600 6300 50  0001 C CNN
+	1    6600 6300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6650 6000 6950 6000
+Wire Wire Line
+	6550 6000 6250 6000
+Wire Wire Line
+	6600 6550 6600 7050
+Wire Wire Line
+	6600 7050 5900 7050
+Text HLabel 6200 5450 1    50   Input ~ 0
+A16
+Text HLabel 6300 5450 1    50   Input ~ 0
+A17
+Text HLabel 6900 5450 1    50   Input ~ 0
+A18
+Text HLabel 7000 5450 1    50   Input ~ 0
+A19
+Wire Wire Line
+	8200 7600 5900 7600
+Wire Wire Line
+	5900 7600 5900 7450
+$Comp
+L power:VCC #PWR?
+U 1 1 5EAA2831
+P 7400 7400
+F 0 "#PWR?" H 7400 7250 50  0001 C CNN
+F 1 "VCC" H 7417 7573 50  0000 C CNN
+F 2 "" H 7400 7400 50  0001 C CNN
+F 3 "" H 7400 7400 50  0001 C CNN
+	1    7400 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 7400 7950 7400
+Wire Wire Line
+	8200 7500 7950 7500
+Wire Wire Line
+	7950 7500 7950 7400
+$Comp
+L Device:R R?
+U 1 1 5EAA6766
+P 7550 7400
+F 0 "R?" V 7343 7400 50  0000 C CNN
+F 1 "1K" V 7434 7400 50  0000 C CNN
+F 2 "" V 7480 7400 50  0001 C CNN
+F 3 "~" H 7550 7400 50  0001 C CNN
+	1    7550 7400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7700 7400 7950 7400
+Connection ~ 7950 7400
+NoConn ~ 5900 6750
+NoConn ~ 5900 6850
+NoConn ~ 5900 6950
+$Comp
+L power:GND #PWR?
+U 1 1 5EAB604F
+P 16650 7000
+F 0 "#PWR?" H 16650 6750 50  0001 C CNN
+F 1 "GND" V 16655 6872 50  0000 R CNN
+F 2 "" H 16650 7000 50  0001 C CNN
+F 3 "" H 16650 7000 50  0001 C CNN
+	1    16650 7000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5EAB6B80
+P 14050 7000
+F 0 "#PWR?" H 14050 6850 50  0001 C CNN
+F 1 "VCC" H 14067 7173 50  0000 C CNN
+F 2 "" H 14050 7000 50  0001 C CNN
+F 3 "" H 14050 7000 50  0001 C CNN
+	1    14050 7000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
