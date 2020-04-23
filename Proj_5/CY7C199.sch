@@ -950,14 +950,6 @@ Wire Wire Line
 	4650 4600 4650 7300
 Wire Wire Line
 	4650 7300 4800 7300
-Wire Bus Line
-	3350 2650 6150 2650
-Wire Bus Line
-	8400 5600 8400 12600
-Wire Bus Line
-	3350 2650 3350 12600
-Wire Bus Line
-	3350 12600 8400 12600
 $Comp
 L Logic_Programmable:PAL16L8 U7
 U 1 1 5EA15772
@@ -969,4 +961,12 @@ F 3 "" H 5750 3600 50  0001 C CNN
 	1    5750 3600
 	0    1    1    0   
 $EndComp
+Wire Bus Line
+	3350 2650 6150 2650
+Wire Bus Line
+	3350 2650 3350 12600
+Wire Bus Line
+	8400 5600 8400 12600
+Wire Bus Line
+	3350 12600 8400 12600
 $EndSCHEMATC
