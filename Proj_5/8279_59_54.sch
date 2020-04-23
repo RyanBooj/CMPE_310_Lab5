@@ -586,7 +586,7 @@ Connection ~ 12050 3650
 Wire Wire Line
 	12050 3650 13050 3650
 $Comp
-L Timer:8254 U?
+L Proj_5-rescue:8254-Timer U?
 U 1 1 5EA19E00
 P 6550 7500
 AR Path="/5EA99146/5EA19E00" Ref="U?"  Part="1" 
@@ -613,11 +613,12 @@ F 3 "~" H 6900 6400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Interface:8259 U?
+L Proj_5-rescue:8259-Interface U?
 U 1 1 5EA1D8D0
 P 6450 2000
 AR Path="/5EA99014/5EA1D8D0" Ref="U?"  Part="1" 
 AR Path="/5EA993EC/5EA1D8D0" Ref="U10"  Part="1" 
+AR Path="/5EA1D8D0" Ref="U10"  Part="1" 
 F 0 "U10" H 6450 3281 50  0000 C CNN
 F 1 "8259" H 6450 3190 50  0000 C CNN
 F 2 "Package_DIP:DIP-28_W15.24mm" H 6450 2000 50  0001 C CIN
