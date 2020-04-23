@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 5 9
+Sheet 4 9
 Title ""
 Date ""
 Rev ""
@@ -27,56 +27,6 @@ F 6 "763-0420AZFLYBW33V3" H 12450 1800 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=763-0420AZFLYBW33V3" H 12450 1700 50  0001 L CNN "Mouser Price/Stock"
 F 8 "Newhaven Display" H 12450 1600 50  0001 L CNN "Manufacturer_Name"
 	1    11500 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L DSUB-9:DSUB-9 J1
-U 1 1 5EAFF563
-P 12600 8700
-F 0 "J1" H 13428 8353 60  0000 L CNN
-F 1 "DSUB-9" H 13428 8247 60  0000 L CNN
-F 2 "DSUB-9" H 13200 8340 60  0001 C CNN
-F 3 "" H 12600 8700 60  0000 C CNN
-	1    12600 8700
-	1    0    0    -1  
-$EndComp
-$Comp
-L max235cpg:max235cpg U27
-U 1 1 5F18FC44
-P 8650 8700
-F 0 "U27" H 9950 9087 60  0000 C CNN
-F 1 "max235cpg" H 9950 8981 60  0000 C CNN
-F 2 "max235cpg" H 9950 8940 60  0001 C CNN
-F 3 "" H 8650 8700 60  0000 C CNN
-	1    8650 8700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5EA6A56C
-P 8350 10150
-AR Path="/5EA98353/5EA6A56C" Ref="C?"  Part="1" 
-AR Path="/5EAF7226/5EA6A56C" Ref="C15"  Part="1" 
-F 0 "C15" V 8098 10150 50  0000 C CNN
-F 1 "0.1uF" V 8189 10150 50  0000 C CNN
-F 2 "" H 8388 10000 50  0001 C CNN
-F 3 "~" H 8350 10150 50  0001 C CNN
-	1    8350 10150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8350 10000 8350 9800
-Wire Wire Line
-	8350 9800 8650 9800
-$Comp
-L power:GND #PWR010
-U 1 1 5EAAD1B7
-P 8350 10300
-F 0 "#PWR010" H 8350 10050 50  0001 C CNN
-F 1 "GND" H 8355 10127 50  0000 C CNN
-F 2 "" H 8350 10300 50  0001 C CNN
-F 3 "" H 8350 10300 50  0001 C CNN
-	1    8350 10300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -722,12 +672,6 @@ F 3 "" H 12600 2600 50  0001 C CNN
 	1    12600 2600
 	0    -1   -1   0   
 $EndComp
-Wire Bus Line
-	1500 600  12300 600 
-Wire Bus Line
-	1500 15000 12350 15000
-Wire Bus Line
-	1500 600  1500 15000
 $Comp
 L power:GND #PWR?
 U 1 1 5EBBCA70
@@ -761,4 +705,10 @@ F 3 "" H 11500 2100 50  0001 C CNN
 	1    11500 2100
 	0    1    1    0   
 $EndComp
+Wire Bus Line
+	1500 600  12300 600 
+Wire Bus Line
+	1500 15000 12350 15000
+Wire Bus Line
+	1500 600  1500 15000
 $EndSCHEMATC

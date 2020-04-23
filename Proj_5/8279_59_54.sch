@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 8 9
+Sheet 7 9
 Title ""
 Date ""
 Rev ""
@@ -923,8 +923,6 @@ Text HLabel 5550 4750 0    50   Input ~ 0
 ~RD
 Wire Wire Line
 	11000 1900 7050 1900
-Text HLabel 7150 6900 2    50   Input ~ 0
-MAIN_CLK
 Wire Wire Line
 	15550 1800 15550 1450
 Wire Wire Line
@@ -965,10 +963,6 @@ Text HLabel 5950 6800 0    50   BiDi ~ 0
 D0
 Text HLabel 5550 4950 0    50   Input ~ 0
 MAIN_CLK
-Text HLabel 7150 7400 2    50   Input ~ 0
-MAIN_CLK
-Text HLabel 7150 7900 2    50   Input ~ 0
-MAIN_CLK
 Text HLabel 5850 2400 0    50   Input ~ 0
 ~WR
 Text HLabel 5850 2500 0    50   Input ~ 0
@@ -994,17 +988,9 @@ Wire Wire Line
 Wire Wire Line
 	10900 600  10900 1800
 Wire Wire Line
-	4700 550  4700 5050
-Wire Wire Line
 	7050 1700 10800 1700
 Wire Wire Line
 	10800 1700 10800 650 
-Wire Wire Line
-	10800 650  4750 650 
-Wire Wire Line
-	4750 650  4750 5250
-Wire Wire Line
-	4750 5250 5550 5250
 Wire Wire Line
 	7600 4700 9300 4700
 Wire Wire Line
@@ -1384,5 +1370,154 @@ F 2 "" H 8450 1200 50  0001 C CNN
 F 3 "~" H 8450 1200 50  0001 C CNN
 	1    8450 1200
 	1    0    0    -1  
+$EndComp
+Text HLabel 7050 1600 2    50   Output ~ 0
+IR3
+Wire Wire Line
+	7050 1200 7950 1200
+Wire Wire Line
+	7950 1200 7950 900 
+Wire Wire Line
+	7950 900  8250 900 
+Wire Wire Line
+	7050 1300 8000 1300
+Wire Wire Line
+	8000 1300 8000 1000
+Wire Wire Line
+	8000 1000 8250 1000
+Wire Wire Line
+	7050 1400 8050 1400
+Wire Wire Line
+	8050 1400 8050 1100
+Wire Wire Line
+	8050 1100 8250 1100
+Wire Wire Line
+	7050 1500 8100 1500
+Wire Wire Line
+	8100 1500 8100 1200
+Wire Wire Line
+	8100 1200 8250 1200
+Wire Wire Line
+	8250 1300 8250 1400
+Wire Wire Line
+	8250 1400 8250 1500
+Connection ~ 8250 1400
+Wire Wire Line
+	8250 1500 8250 1600
+Wire Wire Line
+	8250 1600 8750 1600
+Wire Wire Line
+	8750 1600 8750 1500
+Connection ~ 8250 1500
+Connection ~ 8750 1000
+Wire Wire Line
+	8750 1000 8750 900 
+Connection ~ 8750 1100
+Wire Wire Line
+	8750 1100 8750 1000
+Connection ~ 8750 1200
+Wire Wire Line
+	8750 1200 8750 1100
+Connection ~ 8750 1300
+Wire Wire Line
+	8750 1300 8750 1200
+Connection ~ 8750 1400
+Wire Wire Line
+	8750 1400 8750 1300
+Connection ~ 8750 1500
+Wire Wire Line
+	8750 1500 8750 1400
+Wire Wire Line
+	8750 900  8950 900 
+Connection ~ 8750 900 
+$Comp
+L power:GND #PWR?
+U 1 1 5F5C47E7
+P 8950 900
+F 0 "#PWR?" H 8950 650 50  0001 C CNN
+F 1 "GND" H 8955 727 50  0000 C CNN
+F 2 "" H 8950 900 50  0001 C CNN
+F 3 "" H 8950 900 50  0001 C CNN
+	1    8950 900 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 650  10800 650 
+Wire Wire Line
+	4700 550  4700 5050
+Wire Wire Line
+	4500 650  4500 5250
+Wire Wire Line
+	4500 5250 5550 5250
+$Comp
+L Connector_Generic:Conn_02x07_Counter_Clockwise J?
+U 1 1 5F62591A
+P 8100 7200
+F 0 "J?" H 8150 7717 50  0000 C CNN
+F 1 "Conn_02x07_Counter_Clockwise" H 8150 7626 50  0000 C CNN
+F 2 "" H 8100 7200 50  0001 C CNN
+F 3 "~" H 8100 7200 50  0001 C CNN
+	1    8100 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 6900 7900 6900
+Wire Wire Line
+	7150 7000 7900 7000
+Wire Wire Line
+	7150 7100 7900 7100
+Wire Wire Line
+	7150 7400 7150 7200
+Wire Wire Line
+	7150 7200 7900 7200
+Wire Wire Line
+	7150 7500 7200 7500
+Wire Wire Line
+	7200 7500 7200 7300
+Wire Wire Line
+	7200 7300 7900 7300
+Wire Wire Line
+	7150 7600 7250 7600
+Wire Wire Line
+	7250 7600 7250 7400
+Wire Wire Line
+	7250 7400 7900 7400
+Wire Wire Line
+	7150 7900 7300 7900
+Wire Wire Line
+	7300 7900 7300 7500
+Wire Wire Line
+	7300 7500 7900 7500
+Wire Wire Line
+	7150 8000 8400 8000
+Wire Wire Line
+	8400 8000 8400 7500
+Wire Wire Line
+	8400 7400 8400 7300
+Connection ~ 8400 7000
+Wire Wire Line
+	8400 7000 8400 6900
+Connection ~ 8400 7100
+Wire Wire Line
+	8400 7100 8400 7000
+Connection ~ 8400 7200
+Wire Wire Line
+	8400 7200 8400 7100
+Connection ~ 8400 7300
+Wire Wire Line
+	8400 7300 8400 7200
+Wire Wire Line
+	8400 6900 8550 6900
+Connection ~ 8400 6900
+$Comp
+L power:GND #PWR?
+U 1 1 5F6F628E
+P 8550 6900
+F 0 "#PWR?" H 8550 6650 50  0001 C CNN
+F 1 "GND" H 8555 6727 50  0000 C CNN
+F 2 "" H 8550 6900 50  0001 C CNN
+F 3 "" H 8550 6900 50  0001 C CNN
+	1    8550 6900
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
