@@ -251,54 +251,12 @@ Entry Wire Line
 	4050 12600 4150 12700
 Entry Wire Line
 	4150 12600 4250 12700
-Entry Wire Line
-	4250 12600 4350 12700
-Entry Wire Line
-	4350 12600 4450 12700
-Entry Wire Line
-	4450 12600 4550 12700
-Entry Wire Line
-	4550 12600 4650 12700
-Entry Wire Line
-	4650 12600 4750 12700
-Entry Wire Line
-	4750 12600 4850 12700
-Entry Wire Line
-	4850 12600 4950 12700
-Entry Wire Line
-	4950 12600 5050 12700
-Entry Wire Line
-	5050 12600 5150 12700
-Entry Wire Line
-	5150 12600 5250 12700
-Entry Wire Line
-	5250 12600 5350 12700
-Text HLabel 5250 13100 3    50   Input ~ 0
-A1
-Text HLabel 5150 13100 3    50   Input ~ 0
-A2
-Text HLabel 5050 13100 3    50   Input ~ 0
-A3
-Text HLabel 4950 13100 3    50   Input ~ 0
-A4
-Text HLabel 4850 13100 3    50   Input ~ 0
-A5
-Text HLabel 4750 13100 3    50   Input ~ 0
-A6
-Text HLabel 4650 13100 3    50   Input ~ 0
-A7
 Text HLabel 4150 13100 3    50   Input ~ 0
 A12
 Text HLabel 3850 13100 3    50   Input ~ 0
 A15
 Text HLabel 3750 13100 3    50   Input ~ 0
 A16
-Text HLabel 4550 13100 3    50   Input ~ 0
-A8
-Text HLabel 4450 13100 3    50   Input ~ 0
-A9
-Text HLabel 4350 13100 3    50   Input ~ 0
-A10
 Text HLabel 4250 13100 3    50   Input ~ 0
 A11
 Text HLabel 4050 13100 3    50   Input ~ 0
@@ -311,56 +269,6 @@ Text HLabel 3550 13100 3    50   Input ~ 0
 A18
 Text HLabel 3650 13100 3    50   Input ~ 0
 A17
-Text HLabel 5350 13100 3    50   Input ~ 0
-A0
-Entry Wire Line
-	6350 12600 6450 12700
-Entry Wire Line
-	6450 12600 6550 12700
-Entry Wire Line
-	6550 12600 6650 12700
-Entry Wire Line
-	6650 12600 6750 12700
-Entry Wire Line
-	6750 12600 6850 12700
-Entry Wire Line
-	6850 12600 6950 12700
-Entry Wire Line
-	6950 12600 7050 12700
-Entry Wire Line
-	7050 12600 7150 12700
-Entry Wire Line
-	7150 12600 7250 12700
-Entry Wire Line
-	7250 12600 7350 12700
-Entry Wire Line
-	7350 12600 7450 12700
-Entry Wire Line
-	7450 12600 7550 12700
-Entry Wire Line
-	7550 12600 7650 12700
-Entry Wire Line
-	7650 12600 7750 12700
-Entry Wire Line
-	7750 12600 7850 12700
-Entry Wire Line
-	7850 12600 7950 12700
-Text Label 5350 12750 3    50   ~ 0
-A0
-Text Label 4950 12750 3    50   ~ 0
-A4
-Text Label 4850 12750 3    50   ~ 0
-A5
-Text Label 4750 12750 3    50   ~ 0
-A6
-Text Label 4650 12750 3    50   ~ 0
-A7
-Text Label 4550 12750 3    50   ~ 0
-A8
-Text Label 4450 12750 3    50   ~ 0
-A9
-Text Label 4350 12750 3    50   ~ 0
-A10
 Text Label 4250 12750 3    50   ~ 0
 A11
 Text Label 4150 12750 3    50   ~ 0
@@ -379,12 +287,6 @@ Text Label 3550 12750 3    50   ~ 0
 A18
 Text Label 3450 12750 3    50   ~ 0
 A19
-Text Label 5050 12750 3    50   ~ 0
-A3
-Text Label 5250 12750 3    50   ~ 0
-A1
-Text Label 5150 12750 3    50   ~ 0
-A2
 Wire Wire Line
 	3450 12700 3450 13100
 Wire Wire Line
@@ -403,124 +305,6 @@ Wire Wire Line
 	4150 12700 4150 13100
 Wire Wire Line
 	4250 12700 4250 13100
-Wire Wire Line
-	4350 12700 4350 13100
-Wire Wire Line
-	4450 12700 4450 13100
-Wire Wire Line
-	4550 12700 4550 13100
-Wire Wire Line
-	4650 12700 4650 13100
-Wire Wire Line
-	4750 12700 4750 13100
-Wire Wire Line
-	4850 12700 4850 13100
-Wire Wire Line
-	4950 12700 4950 13100
-Wire Wire Line
-	5050 12700 5050 13100
-Wire Wire Line
-	5150 12700 5150 13100
-Wire Wire Line
-	5250 12700 5250 13100
-Wire Wire Line
-	5350 12700 5350 13100
-Wire Wire Line
-	6450 12700 6450 13150
-Wire Wire Line
-	6550 13150 6550 12700
-Wire Wire Line
-	6650 12700 6650 13150
-Wire Wire Line
-	6750 13150 6750 12700
-Wire Wire Line
-	6850 12700 6850 13150
-Wire Wire Line
-	6950 13150 6950 12700
-Wire Wire Line
-	7050 12700 7050 13150
-Wire Wire Line
-	7150 13150 7150 12700
-Text Label 6450 12850 1    50   ~ 0
-D0
-Text Label 6550 12850 1    50   ~ 0
-D1
-Text Label 6650 12850 1    50   ~ 0
-D2
-Text Label 6750 12850 1    50   ~ 0
-D3
-Text Label 6850 12850 1    50   ~ 0
-D4
-Text Label 6950 12850 1    50   ~ 0
-D5
-Text Label 7050 12850 1    50   ~ 0
-D6
-Text Label 7150 12850 1    50   ~ 0
-D7
-Wire Wire Line
-	7250 12700 7250 13150
-Wire Wire Line
-	7350 12700 7350 13150
-Wire Wire Line
-	7450 12700 7450 13150
-Wire Wire Line
-	7550 12700 7550 13150
-Wire Wire Line
-	7650 12700 7650 13150
-Wire Wire Line
-	7750 13150 7750 12700
-Wire Wire Line
-	7850 12700 7850 13150
-Wire Wire Line
-	7950 13150 7950 12700
-Text Label 7250 12850 1    50   ~ 0
-D8
-Text Label 7350 12850 1    50   ~ 0
-D9
-Text Label 7450 12850 1    50   ~ 0
-D10
-Text Label 7550 12850 1    50   ~ 0
-D11
-Text Label 7650 12850 1    50   ~ 0
-D12
-Text Label 7750 12850 1    50   ~ 0
-D13
-Text Label 7850 12850 1    50   ~ 0
-D14
-Text Label 7950 12850 1    50   ~ 0
-D15
-Text HLabel 6450 13150 3    50   BiDi ~ 0
-D0
-Text HLabel 6550 13150 3    50   BiDi ~ 0
-D1
-Text HLabel 6650 13150 3    50   BiDi ~ 0
-D2
-Text HLabel 7150 13150 3    50   BiDi ~ 0
-D7
-Text HLabel 7050 13150 3    50   BiDi ~ 0
-D6
-Text HLabel 6950 13150 3    50   BiDi ~ 0
-D5
-Text HLabel 6850 13150 3    50   BiDi ~ 0
-D4
-Text HLabel 6750 13150 3    50   BiDi ~ 0
-D3
-Text HLabel 7250 13150 3    50   BiDi ~ 0
-D8
-Text HLabel 7350 13150 3    50   BiDi ~ 0
-D9
-Text HLabel 7450 13150 3    50   BiDi ~ 0
-D10
-Text HLabel 7950 13150 3    50   BiDi ~ 0
-D15
-Text HLabel 7850 13150 3    50   BiDi ~ 0
-D14
-Text HLabel 7750 13150 3    50   BiDi ~ 0
-D13
-Text HLabel 7650 13150 3    50   BiDi ~ 0
-D12
-Text HLabel 7550 13150 3    50   BiDi ~ 0
-D11
 Entry Wire Line
 	3350 7100 3450 7000
 Entry Wire Line
@@ -881,6 +665,7 @@ Text Label 8550 6100 0    50   ~ 0
 A4
 Text Label 8550 5700 0    50   ~ 0
 A0
+<<<<<<< HEAD
 Connection ~ 8400 12600
 Wire Bus Line
 	8400 12600 11450 12600
@@ -965,8 +750,310 @@ Wire Bus Line
 	3350 2650 6150 2650
 Wire Bus Line
 	3350 2650 3350 12600
+=======
+Text Notes 1450 5500 0    197  ~ 0
+Low Bank
+Text Notes 12000 5600 0    197  ~ 0
+High Bank
+Entry Wire Line
+	6150 2650 6250 2750
+Entry Wire Line
+	6050 2650 6150 2750
+Entry Wire Line
+	5950 2650 6050 2750
+Entry Wire Line
+	5850 2650 5950 2750
+Entry Wire Line
+	5750 2650 5850 2750
+Wire Wire Line
+	6250 2750 6250 3100
+Wire Wire Line
+	6150 2750 6150 3100
+Wire Wire Line
+	6050 2750 6050 3100
+Wire Wire Line
+	5850 2750 5850 3100
+Wire Wire Line
+	5950 2750 5950 3100
+Text Label 5850 2750 3    50   ~ 0
+A15
+Text Label 5950 2750 3    50   ~ 0
+A16
+Text Label 6050 2750 3    50   ~ 0
+A17
+Text Label 6150 2750 3    50   ~ 0
+A18
+Text Label 6250 2750 3    50   ~ 0
+A19
+Wire Wire Line
+	6250 4100 6250 5500
+Wire Wire Line
+	6250 5500 9350 5500
+Wire Wire Line
+	9350 7300 9850 7300
+Wire Wire Line
+	9350 5500 9350 7300
+Wire Wire Line
+	6150 4100 6150 5600
+Wire Wire Line
+	6150 5600 9400 5600
+Wire Wire Line
+	9400 5600 9400 10900
+Wire Wire Line
+	9400 10900 9850 10900
+Wire Wire Line
+	6050 4100 6050 11750
+Wire Wire Line
+	6050 11750 4650 11750
+Wire Wire Line
+	4650 11750 4650 10900
+Wire Wire Line
+	4650 10900 4800 10900
+Wire Wire Line
+	5950 4100 5950 4600
+Wire Wire Line
+	5950 4600 4650 4600
+Wire Wire Line
+	4650 4600 4650 7300
+Wire Wire Line
+	4650 7300 4800 7300
+$Comp
+L Logic_Programmable:PAL16L8 U7
+U 1 1 5EA15772
+P 5750 3600
+F 0 "U7" H 5750 4481 50  0000 C CNN
+F 1 "PAL16L8" H 5750 4390 50  0000 C CNN
+F 2 "" H 5750 3600 50  0001 C CNN
+F 3 "" H 5750 3600 50  0001 C CNN
+	1    5750 3600
+	0    1    1    0   
+$EndComp
+Wire Bus Line
+	3350 2650 6150 2650
+Wire Bus Line
+	3350 2650 3350 12600
+Wire Bus Line
+	3350 12600 8400 12600
+>>>>>>> 0d67f04eaf822bf37fe94ffede23244ba18eb72a
 Wire Bus Line
 	8400 5600 8400 12600
 Wire Bus Line
-	3350 12600 8400 12600
+	8400 12600 11450 12600
+Connection ~ 8400 12600
+Text HLabel 7550 13150 3    50   BiDi ~ 0
+D11
+Text HLabel 7650 13150 3    50   BiDi ~ 0
+D12
+Text HLabel 7750 13150 3    50   BiDi ~ 0
+D13
+Text HLabel 7850 13150 3    50   BiDi ~ 0
+D14
+Text HLabel 7950 13150 3    50   BiDi ~ 0
+D15
+Text HLabel 7450 13150 3    50   BiDi ~ 0
+D10
+Text HLabel 7350 13150 3    50   BiDi ~ 0
+D9
+Text HLabel 7250 13150 3    50   BiDi ~ 0
+D8
+Text HLabel 6750 13150 3    50   BiDi ~ 0
+D3
+Text HLabel 6850 13150 3    50   BiDi ~ 0
+D4
+Text HLabel 6950 13150 3    50   BiDi ~ 0
+D5
+Text HLabel 7050 13150 3    50   BiDi ~ 0
+D6
+Text HLabel 7150 13150 3    50   BiDi ~ 0
+D7
+Text HLabel 6650 13150 3    50   BiDi ~ 0
+D2
+Text HLabel 6550 13150 3    50   BiDi ~ 0
+D1
+Text HLabel 6450 13150 3    50   BiDi ~ 0
+D0
+Text Label 7950 12850 1    50   ~ 0
+D15
+Text Label 7850 12850 1    50   ~ 0
+D14
+Text Label 7750 12850 1    50   ~ 0
+D13
+Text Label 7650 12850 1    50   ~ 0
+D12
+Text Label 7550 12850 1    50   ~ 0
+D11
+Text Label 7450 12850 1    50   ~ 0
+D10
+Text Label 7350 12850 1    50   ~ 0
+D9
+Text Label 7250 12850 1    50   ~ 0
+D8
+Wire Wire Line
+	7950 13150 7950 12700
+Wire Wire Line
+	7850 12700 7850 13150
+Wire Wire Line
+	7750 13150 7750 12700
+Wire Wire Line
+	7650 12700 7650 13150
+Wire Wire Line
+	7550 12700 7550 13150
+Wire Wire Line
+	7450 12700 7450 13150
+Wire Wire Line
+	7350 12700 7350 13150
+Wire Wire Line
+	7250 12700 7250 13150
+Text Label 7150 12850 1    50   ~ 0
+D7
+Text Label 7050 12850 1    50   ~ 0
+D6
+Text Label 6950 12850 1    50   ~ 0
+D5
+Text Label 6850 12850 1    50   ~ 0
+D4
+Text Label 6750 12850 1    50   ~ 0
+D3
+Text Label 6650 12850 1    50   ~ 0
+D2
+Text Label 6550 12850 1    50   ~ 0
+D1
+Text Label 6450 12850 1    50   ~ 0
+D0
+Wire Wire Line
+	7150 13150 7150 12700
+Wire Wire Line
+	7050 12700 7050 13150
+Wire Wire Line
+	6950 13150 6950 12700
+Wire Wire Line
+	6850 12700 6850 13150
+Wire Wire Line
+	6750 13150 6750 12700
+Wire Wire Line
+	6650 12700 6650 13150
+Wire Wire Line
+	6550 13150 6550 12700
+Wire Wire Line
+	6450 12700 6450 13150
+Wire Wire Line
+	5350 12700 5350 13100
+Wire Wire Line
+	5250 12700 5250 13100
+Wire Wire Line
+	5150 12700 5150 13100
+Wire Wire Line
+	5050 12700 5050 13100
+Wire Wire Line
+	4950 12700 4950 13100
+Wire Wire Line
+	4850 12700 4850 13100
+Wire Wire Line
+	4750 12700 4750 13100
+Wire Wire Line
+	4650 12700 4650 13100
+Wire Wire Line
+	4550 12700 4550 13100
+Wire Wire Line
+	4450 12700 4450 13100
+Wire Wire Line
+	4350 12700 4350 13100
+Text Label 5150 12750 3    50   ~ 0
+A2
+Text Label 5250 12750 3    50   ~ 0
+A1
+Text Label 5050 12750 3    50   ~ 0
+A3
+Text Label 4350 12750 3    50   ~ 0
+A10
+Text Label 4450 12750 3    50   ~ 0
+A9
+Text Label 4550 12750 3    50   ~ 0
+A8
+Text Label 4650 12750 3    50   ~ 0
+A7
+Text Label 4750 12750 3    50   ~ 0
+A6
+Text Label 4850 12750 3    50   ~ 0
+A5
+Text Label 4950 12750 3    50   ~ 0
+A4
+Text Label 5350 12750 3    50   ~ 0
+A0
+Entry Wire Line
+	7850 12600 7950 12700
+Entry Wire Line
+	7750 12600 7850 12700
+Entry Wire Line
+	7650 12600 7750 12700
+Entry Wire Line
+	7550 12600 7650 12700
+Entry Wire Line
+	7450 12600 7550 12700
+Entry Wire Line
+	7350 12600 7450 12700
+Entry Wire Line
+	7250 12600 7350 12700
+Entry Wire Line
+	7150 12600 7250 12700
+Entry Wire Line
+	7050 12600 7150 12700
+Entry Wire Line
+	6950 12600 7050 12700
+Entry Wire Line
+	6850 12600 6950 12700
+Entry Wire Line
+	6750 12600 6850 12700
+Entry Wire Line
+	6650 12600 6750 12700
+Entry Wire Line
+	6550 12600 6650 12700
+Entry Wire Line
+	6450 12600 6550 12700
+Entry Wire Line
+	6350 12600 6450 12700
+Text HLabel 5350 13100 3    50   Input ~ 0
+A0
+Text HLabel 4350 13100 3    50   Input ~ 0
+A10
+Text HLabel 4450 13100 3    50   Input ~ 0
+A9
+Text HLabel 4550 13100 3    50   Input ~ 0
+A8
+Text HLabel 4650 13100 3    50   Input ~ 0
+A7
+Text HLabel 4750 13100 3    50   Input ~ 0
+A6
+Text HLabel 4850 13100 3    50   Input ~ 0
+A5
+Text HLabel 4950 13100 3    50   Input ~ 0
+A4
+Text HLabel 5050 13100 3    50   Input ~ 0
+A3
+Text HLabel 5150 13100 3    50   Input ~ 0
+A2
+Text HLabel 5250 13100 3    50   Input ~ 0
+A1
+Entry Wire Line
+	5250 12600 5350 12700
+Entry Wire Line
+	5150 12600 5250 12700
+Entry Wire Line
+	5050 12600 5150 12700
+Entry Wire Line
+	4950 12600 5050 12700
+Entry Wire Line
+	4850 12600 4950 12700
+Entry Wire Line
+	4750 12600 4850 12700
+Entry Wire Line
+	4650 12600 4750 12700
+Entry Wire Line
+	4550 12600 4650 12700
+Entry Wire Line
+	4450 12600 4550 12700
+Entry Wire Line
+	4350 12600 4450 12700
+Entry Wire Line
+	4250 12600 4350 12700
 $EndSCHEMATC
