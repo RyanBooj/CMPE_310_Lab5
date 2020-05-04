@@ -132,7 +132,7 @@ F 3 "~" H 2500 1150 50  0001 C CNN
 $EndComp
 Connection ~ 2500 1150
 Wire Wire Line
-	2500 1150 2500 1500
+	2500 1150 2500 1250
 $Comp
 L power:GND #PWR?
 U 1 1 5EA0B842
@@ -167,8 +167,6 @@ Wire Wire Line
 Wire Wire Line
 	3950 3100 3950 3350
 Connection ~ 3950 3100
-Text Notes 800  900  0    50   ~ 0
-Oscilator Circuit. Crystal Frequency is 3 times the desired processor clock frequency
 Wire Wire Line
 	1800 2200 1800 2300
 Wire Wire Line
@@ -201,10 +199,6 @@ Wire Wire Line
 Connection ~ 1650 2600
 Wire Wire Line
 	1800 1800 1400 1800
-Text Notes 1250 1750 0    50   ~ 0
-To 8086 \n
-Text Notes 3200 1750 0    50   ~ 0
-To 8086\n
 Wire Wire Line
 	3200 1800 3650 1800
 NoConn ~ 1800 2000
@@ -231,4 +225,22 @@ F 3 "~" H 2150 1250 50  0001 C CNN
 $EndComp
 Text HLabel 3200 2200 2    118  Output ~ 0
 RES_OUT
+$Comp
+L power:GND #PWR?
+U 1 1 5EADFD76
+P 2000 1250
+AR Path="/5EADFD76" Ref="#PWR?"  Part="1" 
+AR Path="/5E9E2E0E/5EADFD76" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2000 1000 50  0001 C CNN
+F 1 "GND" H 2005 1077 50  0000 C CNN
+F 2 "" H 2000 1250 50  0001 C CNN
+F 3 "" H 2000 1250 50  0001 C CNN
+	1    2000 1250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2300 1250 2500 1250
+Connection ~ 2500 1250
+Wire Wire Line
+	2500 1250 2500 1500
 $EndSCHEMATC

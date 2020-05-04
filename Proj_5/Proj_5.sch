@@ -16,8 +16,8 @@ $EndDescr
 $Sheet
 S 14800 2450 850  1150
 U 5E9E2E0E
-F0 "Clock_Generator" 50
-F1 "Clock_Generator.sch" 50
+F0 "Clock_Generator" 98
+F1 "Clock_Generator.sch" 98
 F2 "CLK_OUT" O L 14800 3200 50 
 F3 "RES_IN" I L 14800 2650 50 
 F4 "RES_OUT" O L 14800 2950 50 
@@ -63,7 +63,7 @@ $EndSheet
 Text Notes 28400 22050 0    169  ~ 0
 Ryan Bugianesi and Collin Mood\n
 $Sheet
-S 4900 16300 2300 3800
+S 20950 5000 2300 3800
 U 5EAF7226
 F0 "Display and LEDs" 138
 F1 "Display_LEDS.sch" 138
