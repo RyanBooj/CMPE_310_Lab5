@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 10
+Sheet 2 9
 Title ""
 Date ""
 Rev ""
@@ -79,27 +79,27 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5EA0B827
-P 4800 2800
+P 4550 2800
 AR Path="/5EA0B827" Ref="#PWR?"  Part="1" 
 AR Path="/5E9E2E0E/5EA0B827" Ref="#PWR0101"  Part="1" 
-F 0 "#PWR0101" H 4800 2550 50  0001 C CNN
-F 1 "GND" V 4805 2672 50  0000 R CNN
-F 2 "" H 4800 2800 50  0001 C CNN
-F 3 "" H 4800 2800 50  0001 C CNN
-	1    4800 2800
+F 0 "#PWR0101" H 4550 2550 50  0001 C CNN
+F 1 "GND" V 4555 2672 50  0000 R CNN
+F 2 "" H 4550 2800 50  0001 C CNN
+F 3 "" H 4550 2800 50  0001 C CNN
+	1    4550 2800
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5EA0B82D
-P 4800 3350
+P 4550 3350
 AR Path="/5EA0B82D" Ref="#PWR?"  Part="1" 
 AR Path="/5E9E2E0E/5EA0B82D" Ref="#PWR0102"  Part="1" 
-F 0 "#PWR0102" H 4800 3100 50  0001 C CNN
-F 1 "GND" V 4805 3222 50  0000 R CNN
-F 2 "" H 4800 3350 50  0001 C CNN
-F 3 "" H 4800 3350 50  0001 C CNN
-	1    4800 3350
+F 0 "#PWR0102" H 4550 3100 50  0001 C CNN
+F 1 "GND" V 4555 3222 50  0000 R CNN
+F 2 "" H 4550 3350 50  0001 C CNN
+F 3 "" H 4550 3350 50  0001 C CNN
+	1    4550 3350
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -115,6 +115,24 @@ F 3 "" H 2500 1100 50  0001 C CNN
 	1    2500 1100
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2500 1100 2500 1150
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5EA0B83A
+P 2500 1150
+AR Path="/5EA0B83A" Ref="#FLG?"  Part="1" 
+AR Path="/5E9E2E0E/5EA0B83A" Ref="#FLG0101"  Part="1" 
+F 0 "#FLG0101" H 2500 1225 50  0001 C CNN
+F 1 "PWR_FLAG" V 2500 1278 50  0000 L CNN
+F 2 "" H 2500 1150 50  0001 C CNN
+F 3 "~" H 2500 1150 50  0001 C CNN
+	1    2500 1150
+	0    1    1    0   
+$EndComp
+Connection ~ 2500 1150
+Wire Wire Line
+	2500 1150 2500 1500
 $Comp
 L power:GND #PWR?
 U 1 1 5EA0B842
@@ -129,8 +147,28 @@ F 3 "" H 2500 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
+	2500 3300 2500 3450
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5EA0B849
+P 2500 3450
+AR Path="/5EA0B849" Ref="#FLG?"  Part="1" 
+AR Path="/5E9E2E0E/5EA0B849" Ref="#FLG0102"  Part="1" 
+F 0 "#FLG0102" H 2500 3525 50  0001 C CNN
+F 1 "PWR_FLAG" V 2500 3578 50  0000 L CNN
+F 2 "" H 2500 3450 50  0001 C CNN
+F 3 "~" H 2500 3450 50  0001 C CNN
+	1    2500 3450
+	0    1    1    0   
+$EndComp
+Connection ~ 2500 3450
+Wire Wire Line
+	2500 3450 2500 3500
+Wire Wire Line
 	3950 3100 3950 3350
 Connection ~ 3950 3100
+Text Notes 800  900  0    50   ~ 0
+Oscilator Circuit. Crystal Frequency is 3 times the desired processor clock frequency
 Wire Wire Line
 	1800 2200 1800 2300
 Wire Wire Line
@@ -163,6 +201,10 @@ Wire Wire Line
 Connection ~ 1650 2600
 Wire Wire Line
 	1800 1800 1400 1800
+Text Notes 1250 1750 0    50   ~ 0
+To 8086 \n
+Text Notes 3200 1750 0    50   ~ 0
+To 8086\n
 Wire Wire Line
 	3200 1800 3650 1800
 NoConn ~ 1800 2000
@@ -189,30 +231,4 @@ F 3 "~" H 2150 1250 50  0001 C CNN
 $EndComp
 Text HLabel 3200 2200 2    118  Output ~ 0
 RES_OUT
-$Comp
-L power:GND #PWR?
-U 1 1 5EADFD76
-P 2000 1250
-AR Path="/5EADFD76" Ref="#PWR?"  Part="1" 
-AR Path="/5E9E2E0E/5EADFD76" Ref="#PWR03"  Part="1" 
-F 0 "#PWR03" H 2000 1000 50  0001 C CNN
-F 1 "GND" H 2005 1077 50  0000 C CNN
-F 2 "" H 2000 1250 50  0001 C CNN
-F 3 "" H 2000 1250 50  0001 C CNN
-	1    2000 1250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2300 1250 2500 1250
-Connection ~ 2500 1250
-Wire Wire Line
-	2500 1250 2500 1500
-Wire Wire Line
-	4550 2800 4800 2800
-Wire Wire Line
-	2500 1100 2500 1250
-Wire Wire Line
-	4550 3350 4800 3350
-Wire Wire Line
-	2500 3300 2500 3500
 $EndSCHEMATC

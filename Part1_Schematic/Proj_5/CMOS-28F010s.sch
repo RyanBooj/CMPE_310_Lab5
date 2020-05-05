@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 15748 23622
 encoding utf-8
-Sheet 4 10
+Sheet 5 9
 Title ""
 Date ""
 Rev ""
@@ -59,6 +59,8 @@ Wire Wire Line
 Wire Wire Line
 	2950 4000 4650 4000
 Wire Wire Line
+	7000 2000 7000 2050
+Wire Wire Line
 	6850 2600 7000 2600
 $Comp
 L power:GND #PWR0108
@@ -73,6 +75,8 @@ F 3 "" H 4500 2000 50  0001 C CNN
 	1    4500 2000
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	4500 2000 4500 2050
 Wire Wire Line
 	4500 4100 4650 4100
 NoConn ~ 6850 2800
@@ -121,6 +125,35 @@ F 3 "" H 7000 2000 50  0001 C CNN
 	1    7000 2000
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5EBED100
+P 4500 2050
+AR Path="/5EA045EA/5EBED100" Ref="#FLG0103"  Part="1" 
+AR Path="/5EA98353/5EA34234/5EBED100" Ref="#FLG?"  Part="1" 
+F 0 "#FLG0103" H 4500 2125 50  0001 C CNN
+F 1 "PWR_FLAG" V 4500 2178 50  0000 L CNN
+F 2 "" H 4500 2050 50  0001 C CNN
+F 3 "~" H 4500 2050 50  0001 C CNN
+	1    4500 2050
+	0    1    1    0   
+$EndComp
+Connection ~ 4500 2050
+Wire Wire Line
+	4500 2050 4500 4100
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5EBEE814
+P 7000 2050
+AR Path="/5EA045EA/5EBEE814" Ref="#FLG0104"  Part="1" 
+AR Path="/5EA98353/5EA34234/5EBEE814" Ref="#FLG?"  Part="1" 
+F 0 "#FLG0104" H 7000 2125 50  0001 C CNN
+F 1 "PWR_FLAG" V 7000 2177 50  0000 L CNN
+F 2 "" H 7000 2050 50  0001 C CNN
+F 3 "~" H 7000 2050 50  0001 C CNN
+	1    7000 2050
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
 	7000 2150 4650 2150
 Wire Wire Line
@@ -128,6 +161,9 @@ Wire Wire Line
 Connection ~ 7000 2150
 Wire Wire Line
 	7000 2150 7000 2300
+Connection ~ 7000 2050
+Wire Wire Line
+	7000 2050 7000 2150
 Wire Wire Line
 	3600 5400 4650 5400
 Wire Wire Line
@@ -410,36 +446,4 @@ Text HLabel 7350 2900 2    50   Input ~ 0
 A14
 Text HLabel 10850 4550 2    50   Input ~ 0
 M~IO
-$Comp
-L power:GND #PWR047
-U 1 1 5F3A169C
-P 10350 5150
-AR Path="/5EA045EA/5F3A169C" Ref="#PWR047"  Part="1" 
-AR Path="/5EA98353/5EA34234/5F3A169C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR047" H 10350 4900 50  0001 C CNN
-F 1 "GND" H 10355 4977 50  0000 C CNN
-F 2 "" H 10350 5150 50  0001 C CNN
-F 3 "" H 10350 5150 50  0001 C CNN
-	1    10350 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR046
-U 1 1 5F3AB457
-P 10350 3400
-AR Path="/5EA045EA/5F3AB457" Ref="#PWR046"  Part="1" 
-AR Path="/5EA98353/5EA34234/5F3AB457" Ref="#PWR?"  Part="1" 
-F 0 "#PWR046" H 10350 3250 50  0001 C CNN
-F 1 "VCC" H 10367 3573 50  0000 C CNN
-F 2 "" H 10350 3400 50  0001 C CNN
-F 3 "" H 10350 3400 50  0001 C CNN
-	1    10350 3400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10350 3400 10350 3850
-Wire Wire Line
-	4500 2000 4500 4100
-Wire Wire Line
-	7000 2000 7000 2150
 $EndSCHEMATC
