@@ -19,7 +19,7 @@ U 1 1 5EAFDAD4
 P 11500 2100
 F 0 "DS1" H 12050 2365 50  0000 C CNN
 F 1 "LCD4x20" H 12050 2274 50  0000 C CNN
-F 2 "LCD4x20" H 12450 2200 50  0001 L CNN
+F 2 "parts:LCD4x20" H 12450 2200 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/1/LCD4x20.pdf" H 12450 2100 50  0001 L CNN
 F 4 "LCD Character Display Modules & Accessories STN-Y/G Transfl 77.5 x 47.0" H 12450 2000 50  0001 L CNN "Description"
 F 5 "14.5" H 12450 1900 50  0001 L CNN "Height"
