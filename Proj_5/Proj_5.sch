@@ -993,6 +993,8 @@ F32 "A3" I L 3450 4300 50
 F33 "A2" I L 3450 4400 50 
 F34 "A0" I L 3450 4600 50 
 F35 "A1" I L 3450 4500 50 
+F36 "~INTA" I R 8100 4400 50 
+F37 "INT" O R 8100 4500 50 
 $EndSheet
 $Sheet
 S 14100 4900 2500 5600
@@ -1510,6 +1512,8 @@ F26 "D6" B R 28150 14300 50
 F27 "D5" B R 28150 14200 50 
 F28 "D4" B R 28150 14100 50 
 F29 "D3" B R 28150 14000 50 
+F30 "R~W" I L 25850 13900 50 
+F31 "RS" I L 25850 14000 50 
 $EndSheet
 Entry Wire Line
 	28350 14400 28450 14500
@@ -2014,6 +2018,28 @@ Text Label 28350 14300 2    50   ~ 0
 D6
 Text Label 28350 14400 2    50   ~ 0
 D7
+Text Label 7650 13300 2    50   ~ 0
+~RD
+Text Label 7650 13400 2    50   ~ 0
+~WR
+Text Label 7650 13500 2    50   ~ 0
+M~IO
+Text Label 16850 9700 2    50   ~ 0
+~RD
+Text Label 16850 9800 2    50   ~ 0
+~WR
+Text Label 16850 9900 2    50   ~ 0
+M~IO
+Text Label 16850 10000 2    50   ~ 0
+~BHE
+Text Label 28900 8700 2    50   ~ 0
+~RD
+Wire Wire Line
+	23150 14000 23300 14000
+Wire Wire Line
+	23300 14000 23300 4200
+Wire Wire Line
+	23300 4200 14000 4200
 Wire Bus Line
 	3400 7650 3400 7950
 Wire Bus Line
@@ -2054,20 +2080,4 @@ Wire Bus Line
 	25350 13350 25350 17250
 Wire Bus Line
 	23550 13350 23550 16250
-Text Label 7650 13300 2    50   ~ 0
-~RD
-Text Label 7650 13400 2    50   ~ 0
-~WR
-Text Label 7650 13500 2    50   ~ 0
-M~IO
-Text Label 16850 9700 2    50   ~ 0
-~RD
-Text Label 16850 9800 2    50   ~ 0
-~WR
-Text Label 16850 9900 2    50   ~ 0
-M~IO
-Text Label 16850 10000 2    50   ~ 0
-~BHE
-Text Label 28900 8700 2    50   ~ 0
-~RD
 $EndSCHEMATC

@@ -235,9 +235,9 @@ Text HLabel 6850 2700 2    50   Input ~ 0
 WE
 Text HLabel 6850 5400 2    50   Input ~ 0
 WE
-Text HLabel 6850 3400 2    50   Input ~ 0
+Text HLabel 7100 3400 2    50   Input ~ 0
 ~OE
-Text HLabel 6850 6100 2    50   Input ~ 0
+Text HLabel 7000 6100 2    50   Input ~ 0
 ~OE
 $Comp
 L Device:C C?
@@ -328,10 +328,6 @@ Text HLabel 10850 4150 2    50   Input ~ 0
 A18
 Text HLabel 10850 4250 2    50   Input ~ 0
 A17
-Text HLabel 10850 4350 2    50   Input ~ 0
-~BLE
-Text HLabel 10850 4450 2    50   Input ~ 0
-~BHE
 Wire Wire Line
 	9850 4050 8500 4050
 Wire Wire Line
@@ -406,7 +402,7 @@ Text HLabel 7350 3000 2    50   Input ~ 0
 A13
 Text HLabel 7350 2900 2    50   Input ~ 0
 A14
-Text HLabel 10850 4550 2    50   Input ~ 0
+Text HLabel 10850 4350 2    50   Input ~ 0
 M~IO
 $Comp
 L power:GND #PWR047
@@ -452,4 +448,10 @@ NoConn ~ 10850 4850
 NoConn ~ 10850 4950
 Text HLabel 3600 6400 0    50   Input ~ 0
 ~BLE
+NoConn ~ 10850 4450
+NoConn ~ 10850 4550
+Wire Wire Line
+	6850 3400 7100 3400
+Wire Wire Line
+	6850 6100 7000 6100
 $EndSCHEMATC
