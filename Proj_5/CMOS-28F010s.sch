@@ -340,8 +340,6 @@ Wire Wire Line
 	9850 4150 8500 4150
 Wire Wire Line
 	8500 4150 8500 6300
-Text HLabel 3600 6400 0    50   Input ~ 0
-~BHE
 Text HLabel 3600 6300 0    50   Input ~ 0
 A1
 Text HLabel 3600 6200 0    50   Input ~ 0
@@ -442,4 +440,16 @@ Wire Wire Line
 	4500 2000 4500 4100
 Wire Wire Line
 	7000 2000 7000 2150
+NoConn ~ 9850 4250
+NoConn ~ 9850 4350
+NoConn ~ 9850 4450
+NoConn ~ 9850 4550
+NoConn ~ 9850 4650
+NoConn ~ 9850 4750
+NoConn ~ 10850 4650
+NoConn ~ 10850 4750
+NoConn ~ 10850 4850
+NoConn ~ 10850 4950
+Text HLabel 3600 6400 0    50   Input ~ 0
+~BLE
 $EndSCHEMATC

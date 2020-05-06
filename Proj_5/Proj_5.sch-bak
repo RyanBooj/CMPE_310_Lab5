@@ -970,9 +970,29 @@ F9 "D1" B R 8100 2850 50
 F10 "D0" B R 8100 3000 50 
 F11 "MAIN_CLK" I R 8100 4200 50 
 F12 "IR3" O L 3450 4900 50 
-F13 "~WR" I L 3450 2600 50 
-F14 "~RD" I L 3450 2700 50 
+F13 "~WR" I L 3450 2050 50 
+F14 "~RD" I L 3450 2150 50 
 F15 "RESET" O R 8100 3900 50 
+F16 "A15" I L 3450 3100 50 
+F17 "A14" I L 3450 3200 50 
+F18 "A13" I L 3450 3300 50 
+F19 "A12" I L 3450 3400 50 
+F20 "A11" I L 3450 3500 50 
+F21 "A10" I L 3450 3600 50 
+F22 "A6" I L 3450 4000 50 
+F23 "A5" I L 3450 4100 50 
+F24 "A7" I L 3450 3900 50 
+F25 "A8" I L 3450 3800 50 
+F26 "A9" I L 3450 3700 50 
+F27 "A19" I L 3450 2700 50 
+F28 "A18" I L 3450 2800 50 
+F29 "A17" I L 3450 2900 50 
+F30 "A16" I L 3450 3000 50 
+F31 "A4" I L 3450 4200 50 
+F32 "A3" I L 3450 4300 50 
+F33 "A2" I L 3450 4400 50 
+F34 "A0" I L 3450 4600 50 
+F35 "A1" I L 3450 4500 50 
 $EndSheet
 $Sheet
 S 14100 4900 2500 5600
@@ -1186,18 +1206,18 @@ Wire Wire Line
 	3450 4900 3400 4900
 Wire Wire Line
 	7150 13950 13650 13950
-Text Label 2800 2700 0    50   ~ 0
+Text Label 2800 2150 0    50   ~ 0
 ~RD
-Text Label 2800 2600 0    50   ~ 0
+Text Label 2800 2050 0    50   ~ 0
 ~WR
 Wire Wire Line
-	3450 2700 2550 2700
+	3450 2150 2550 2150
 Wire Wire Line
-	3450 2600 2550 2600
+	3450 2050 2550 2050
 Entry Wire Line
-	2550 2700 2450 2600
+	2550 2150 2450 2050
 Entry Wire Line
-	2550 2600 2450 2500
+	2550 2050 2450 1950
 Wire Bus Line
 	2450 1250 29100 1250
 Wire Wire Line
@@ -1660,6 +1680,102 @@ Wire Wire Line
 	19250 14950 20600 14950
 Text Label 19250 14250 0    50   ~ 0
 D0
+Text Label 19250 14350 0    50   ~ 0
+D1
+Text Label 19250 14450 0    50   ~ 0
+D2
+Text Label 19250 14550 0    50   ~ 0
+D3
+Text Label 19250 14650 0    50   ~ 0
+D4
+Text Label 19250 14750 0    50   ~ 0
+D5
+Text Label 19250 14850 0    50   ~ 0
+D6
+Text Label 19250 14950 0    50   ~ 0
+D7
+Wire Bus Line
+	4000 6150 3100 6150
+Entry Wire Line
+	3100 2800 3200 2700
+Entry Wire Line
+	3100 2900 3200 2800
+Entry Wire Line
+	3100 3000 3200 2900
+Entry Wire Line
+	3100 3100 3200 3000
+Entry Wire Line
+	3100 3200 3200 3100
+Entry Wire Line
+	3100 3300 3200 3200
+Entry Wire Line
+	3100 3400 3200 3300
+Entry Wire Line
+	3100 3500 3200 3400
+Entry Wire Line
+	3100 3600 3200 3500
+Entry Wire Line
+	3100 3700 3200 3600
+Entry Wire Line
+	3100 3800 3200 3700
+Entry Wire Line
+	3100 3900 3200 3800
+Entry Wire Line
+	3100 4000 3200 3900
+Entry Wire Line
+	3100 4100 3200 4000
+Entry Wire Line
+	3100 4200 3200 4100
+Entry Wire Line
+	3100 4300 3200 4200
+Entry Wire Line
+	3100 4400 3200 4300
+Entry Wire Line
+	3100 4500 3200 4400
+Entry Wire Line
+	3100 4600 3200 4500
+Entry Wire Line
+	3100 4700 3200 4600
+Wire Wire Line
+	3450 4600 3200 4600
+Wire Wire Line
+	3200 4500 3450 4500
+Wire Wire Line
+	3200 4400 3450 4400
+Wire Wire Line
+	3450 4300 3200 4300
+Wire Wire Line
+	3200 4200 3450 4200
+Wire Wire Line
+	3450 4100 3200 4100
+Wire Wire Line
+	3200 4000 3450 4000
+Wire Wire Line
+	3450 3900 3200 3900
+Wire Wire Line
+	3200 3800 3450 3800
+Wire Wire Line
+	3450 3700 3200 3700
+Wire Wire Line
+	3200 3600 3450 3600
+Wire Wire Line
+	3450 3500 3200 3500
+Wire Wire Line
+	3200 3400 3450 3400
+Wire Wire Line
+	3450 3300 3200 3300
+Wire Wire Line
+	3200 3200 3450 3200
+Wire Wire Line
+	3450 3100 3200 3100
+Wire Wire Line
+	3200 3000 3450 3000
+Wire Wire Line
+	3450 2900 3200 2900
+Wire Wire Line
+	3200 2800 3450 2800
+Wire Wire Line
+	3450 2700 3200 2700
 Wire Bus Line
 	3400 7650 3400 7950
 Wire Bus Line
@@ -1687,27 +1803,55 @@ Wire Bus Line
 Wire Bus Line
 	17000 6900 17000 8800
 Wire Bus Line
+	3100 2800 3100 6150
+Wire Bus Line
 	24550 2600 24550 4500
 Wire Bus Line
 	24450 4500 24450 13350
 Wire Bus Line
 	4250 11550 4250 14100
 Wire Bus Line
-	4000 8150 4000 11550
+	4000 6150 4000 11550
 Wire Bus Line
 	25350 13350 25350 17250
-Text Label 19250 14350 0    50   ~ 0
-D1
-Text Label 19250 14450 0    50   ~ 0
-D2
-Text Label 19250 14550 0    50   ~ 0
-D3
-Text Label 19250 14650 0    50   ~ 0
-D4
-Text Label 19250 14750 0    50   ~ 0
-D5
-Text Label 19250 14850 0    50   ~ 0
-D6
-Text Label 19250 14950 0    50   ~ 0
-D7
+Text Label 3200 2700 0    50   ~ 0
+A19
+Text Label 3200 2800 0    50   ~ 0
+A18
+Text Label 3200 2900 0    50   ~ 0
+A17
+Text Label 3200 3000 0    50   ~ 0
+A16
+Text Label 3200 3100 0    50   ~ 0
+A15
+Text Label 3200 3200 0    50   ~ 0
+A14
+Text Label 3200 3300 0    50   ~ 0
+A13
+Text Label 3200 3400 0    50   ~ 0
+A12
+Text Label 3200 3500 0    50   ~ 0
+A11
+Text Label 3200 3600 0    50   ~ 0
+A10
+Text Label 3200 3700 0    50   ~ 0
+A9
+Text Label 3200 3800 0    50   ~ 0
+A8
+Text Label 3200 3900 0    50   ~ 0
+A7
+Text Label 3200 4000 0    50   ~ 0
+A6
+Text Label 3200 4100 0    50   ~ 0
+A5
+Text Label 3200 4200 0    50   ~ 0
+A4
+Text Label 3200 4300 0    50   ~ 0
+A3
+Text Label 3200 4400 0    50   ~ 0
+A2
+Text Label 3200 4500 0    50   ~ 0
+A1
+Text Label 3200 4600 0    50   ~ 0
+A0
 $EndSCHEMATC

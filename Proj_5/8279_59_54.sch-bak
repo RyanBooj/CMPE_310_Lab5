@@ -1419,10 +1419,10 @@ Wire Wire Line
 Wire Wire Line
 	7200 2700 7350 2700
 $Comp
-L Logic_Programmable:PAL16L8 U?
+L Logic_Programmable:PAL16L8 U60
 U 1 1 5ED93710
 P 2300 2350
-F 0 "U?" H 2300 3231 50  0000 C CNN
+F 0 "U60" H 2300 3231 50  0000 C CNN
 F 1 "PAL16L8" H 2300 3140 50  0000 C CNN
 F 2 "" H 2300 2350 50  0001 C CNN
 F 3 "" H 2300 2350 50  0001 C CNN
@@ -1451,38 +1451,6 @@ Text HLabel 1800 2650 0    50   Input ~ 0
 A8
 Text HLabel 1800 2750 0    50   Input ~ 0
 A9
-$Comp
-L 74xGxx:74LVC1G11 U?
-U 1 1 5EE4156C
-P 1300 1850
-F 0 "U?" H 1300 2164 50  0000 C CNN
-F 1 "74LVC1G11" H 1300 2073 50  0000 C CNN
-F 2 "" H 1300 1850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 1300 1850 50  0001 C CNN
-	1    1300 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xGxx:74LVC1G08 U?
-U 1 1 5EE43827
-P 1000 2200
-F 0 "U?" V 1021 2070 50  0000 R CNN
-F 1 "74LVC1G08" V 930 2070 50  0000 R CNN
-F 2 "" H 1000 2200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 1000 2200 50  0001 C CNN
-	1    1000 2200
-	0    -1   -1   0   
-$EndComp
-Text HLabel 950  2500 3    50   Input ~ 0
-A19
-Text HLabel 1050 2500 3    50   Input ~ 0
-A18
-Text HLabel 1000 1850 0    50   Input ~ 0
-A17
-Text HLabel 1000 1750 0    50   Input ~ 0
-A16
-Wire Wire Line
-	1600 1850 1800 1850
 Text HLabel 2800 2150 2    50   Input ~ 0
 A4
 Text HLabel 2800 2250 2    50   Input ~ 0
@@ -1515,14 +1483,70 @@ Connection ~ 5550 800
 Wire Wire Line
 	5550 800  6450 800 
 $Comp
-L power:GND #PWR?
+L power:GND #PWR082
 U 1 1 5EF0D1C7
 P 2300 2950
-F 0 "#PWR?" H 2300 2700 50  0001 C CNN
+F 0 "#PWR082" H 2300 2700 50  0001 C CNN
 F 1 "GND" H 2305 2777 50  0000 C CNN
 F 2 "" H 2300 2950 50  0001 C CNN
 F 3 "" H 2300 2950 50  0001 C CNN
 	1    2300 2950
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR097
+U 1 1 5EF1007D
+P 5550 5650
+F 0 "#PWR097" H 5550 5400 50  0001 C CNN
+F 1 "GND" H 5555 5477 50  0000 C CNN
+F 2 "" H 5550 5650 50  0001 C CNN
+F 3 "" H 5550 5650 50  0001 C CNN
+	1    5550 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G02 U?
+U 1 1 5F4DAB3E
+P 1450 1000
+F 0 "U?" V 1379 1130 50  0000 L CNN
+F 1 "74AHC1G02" V 1470 1130 50  0000 L CNN
+F 2 "" H 1450 1000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 1450 1000 50  0001 C CNN
+	1    1450 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xGxx:74AHC1G02 U?
+U 1 1 5F4DE98E
+P 1100 1250
+F 0 "U?" H 1075 1517 50  0000 C CNN
+F 1 "74AHC1G02" H 1075 1426 50  0000 C CNN
+F 2 "" H 1100 1250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 1100 1250 50  0001 C CNN
+	1    1100 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74LVC1G08 U?
+U 1 1 5F4E0E05
+P 1400 1550
+F 0 "U?" V 1329 1680 50  0000 L CNN
+F 1 "74LVC1G08" V 1420 1680 50  0000 L CNN
+F 2 "" H 1400 1550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 1400 1550 50  0001 C CNN
+	1    1400 1550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 1850 1400 1800
+Wire Wire Line
+	1400 1850 1800 1850
+Text HLabel 1500 700  1    50   Input ~ 0
+A19
+Text HLabel 1400 700  1    50   Input ~ 0
+A18
+Text HLabel 800  1200 0    50   Input ~ 0
+A17
+Text HLabel 800  1300 0    50   Input ~ 0
+A16
 $EndSCHEMATC
