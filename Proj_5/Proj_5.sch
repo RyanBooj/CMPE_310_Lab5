@@ -1484,8 +1484,8 @@ Wire Wire Line
 $Sheet
 S 25850 13500 2300 3800
 U 5EAF7226
-F0 "Display and LEDs" 138
-F1 "Display_LEDS.sch" 138
+F0 "Display" 138
+F1 "Display.sch" 138
 F2 "A12" I L 25850 16500 50 
 F3 "A15" I L 25850 16800 50 
 F4 "A16" I L 25850 16900 50 
