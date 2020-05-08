@@ -1041,12 +1041,12 @@ NoConn ~ 3050 2200
 NoConn ~ 3050 2300
 NoConn ~ 3050 2400
 NoConn ~ 3050 2500
+Text HLabel 2050 2600 0    50   Input ~ 0
+M~IO
 Wire Bus Line
 	8050 8700 8050 10250
 Wire Bus Line
 	5200 8700 8050 8700
 Wire Bus Line
 	8050 2600 8050 8700
-Text HLabel 2050 2600 0    50   Input ~ 0
-M~IO
 $EndSCHEMATC

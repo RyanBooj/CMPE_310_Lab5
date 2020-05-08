@@ -34,7 +34,7 @@ AR Path="/5EA0B80F" Ref="OSC?"  Part="1"
 AR Path="/5E9E2E0E/5EA0B80F" Ref="OSC1"  Part="1" 
 F 0 "OSC1" V 3904 3081 50  0000 L CNN
 F 1 "24 MHz Crystal OSC" V 3995 3081 50  0000 L CNN
-F 2 "Oscillator:Oscillator_DIP-8" H 3950 2950 50  0001 C CNN
+F 2 "Crystal:Crystal_DS10_D1.0mm_L4.3mm_Horizontal" H 3950 2950 50  0001 C CNN
 F 3 "~" H 3950 2950 50  0001 C CNN
 	1    3950 2950
 	0    1    1    0   
