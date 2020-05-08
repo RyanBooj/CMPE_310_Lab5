@@ -1225,27 +1225,7 @@ IR3
 Wire Wire Line
 	7050 1200 7950 1200
 Wire Wire Line
-	7950 1200 7950 900 
-Wire Wire Line
-	7950 900  8250 900 
-Wire Wire Line
 	7050 1300 8000 1300
-Wire Wire Line
-	8000 1300 8000 1000
-Wire Wire Line
-	8000 1000 8250 1000
-Wire Wire Line
-	7050 1400 8050 1400
-Wire Wire Line
-	8050 1400 8050 1100
-Wire Wire Line
-	8050 1100 8250 1100
-Wire Wire Line
-	7050 1500 8100 1500
-Wire Wire Line
-	8100 1500 8100 1200
-Wire Wire Line
-	8100 1200 8250 1200
 Wire Wire Line
 	4500 650  10800 650 
 Wire Wire Line
@@ -1319,8 +1299,6 @@ Wire Wire Line
 Wire Wire Line
 	5600 6150 6550 6150
 Wire Wire Line
-	5500 800  5550 800 
-Wire Wire Line
 	9850 6450 9850 6650
 Wire Wire Line
 	11800 1750 11800 2050
@@ -1334,11 +1312,6 @@ Wire Wire Line
 	7200 2700 7350 2700
 Wire Wire Line
 	5200 2300 5850 2300
-Wire Wire Line
-	5550 800  5550 1450
-Connection ~ 5550 800 
-Wire Wire Line
-	5550 800  6450 800 
 $Comp
 L power:GND #PWR097
 U 1 1 5EF1007D
@@ -1419,7 +1392,7 @@ A1
 Text HLabel 900  2350 0    50   Input ~ 0
 A0
 Wire Wire Line
-	1400 1450 2100 1450
+	1400 1450 1850 1450
 Wire Wire Line
 	1900 1650 5200 1650
 Wire Wire Line
@@ -1472,9 +1445,6 @@ Wire Wire Line
 	2100 1450 2100 3350
 Wire Wire Line
 	2100 3350 1350 3350
-Connection ~ 2100 1450
-Wire Wire Line
-	2100 1450 5550 1450
 $Comp
 L power:GND #PWR027
 U 1 1 5EEA610B
@@ -1517,22 +1487,58 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x04_Top_Bottom J5
 U 1 1 5EBE66D2
-P 8450 1000
-F 0 "J5" H 8500 1317 50  0000 C CNN
-F 1 "Conn_02x04_Top_Bottom" H 8500 1226 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_2x04_P1.00mm_Vertical" H 8450 1000 50  0001 C CNN
-F 3 "~" H 8450 1000 50  0001 C CNN
-	1    8450 1000
-	1    0    0    -1  
+P 8550 1000
+F 0 "J5" H 8600 1317 50  0000 C CNN
+F 1 "Conn_02x04_Top_Bottom" H 8600 1226 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_2x04_P1.00mm_Vertical" H 8550 1000 50  0001 C CNN
+F 3 "~" H 8550 1000 50  0001 C CNN
+	1    8550 1000
+	-1   0    0    1   
 $EndComp
-NoConn ~ 8750 900 
-NoConn ~ 8750 1000
-NoConn ~ 8750 1100
-NoConn ~ 8750 1200
 NoConn ~ 8400 6900
 NoConn ~ 8400 7000
 NoConn ~ 8400 7100
 NoConn ~ 8400 7200
 NoConn ~ 8400 7300
 NoConn ~ 8400 7400
+Wire Wire Line
+	7050 1400 8900 1400
+Wire Wire Line
+	7050 1500 8950 1500
+Wire Wire Line
+	8950 1500 8950 1100
+NoConn ~ 8750 1000
+Wire Wire Line
+	8900 900  8750 900 
+Wire Wire Line
+	8900 900  8900 1400
+Wire Wire Line
+	8750 1100 8950 1100
+NoConn ~ 8750 800 
+NoConn ~ 8250 800 
+NoConn ~ 8250 1000
+Wire Wire Line
+	7950 900  7950 1200
+Wire Wire Line
+	7950 900  8250 900 
+Wire Wire Line
+	8000 1300 8000 1100
+Wire Wire Line
+	8000 1100 8250 1100
+$Comp
+L power:VCC #PWR?
+U 1 1 5EDA1350
+P 1850 1450
+F 0 "#PWR?" H 1850 1300 50  0001 C CNN
+F 1 "VCC" H 1868 1623 50  0000 C CNN
+F 2 "" H 1850 1450 50  0001 C CNN
+F 3 "" H 1850 1450 50  0001 C CNN
+	1    1850 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 800  6450 800 
+Wire Wire Line
+	1850 1450 2100 1450
+Connection ~ 1850 1450
 $EndSCHEMATC
