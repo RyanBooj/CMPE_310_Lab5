@@ -1299,8 +1299,6 @@ Wire Wire Line
 Wire Wire Line
 	5600 6150 6550 6150
 Wire Wire Line
-	5500 800  5550 800 
-Wire Wire Line
 	9850 6450 9850 6650
 Wire Wire Line
 	11800 1750 11800 2050
@@ -1314,11 +1312,6 @@ Wire Wire Line
 	7200 2700 7350 2700
 Wire Wire Line
 	5200 2300 5850 2300
-Wire Wire Line
-	5550 800  5550 1450
-Connection ~ 5550 800 
-Wire Wire Line
-	5550 800  6450 800 
 $Comp
 L power:GND #PWR097
 U 1 1 5EF1007D
@@ -1399,7 +1392,7 @@ A1
 Text HLabel 900  2350 0    50   Input ~ 0
 A0
 Wire Wire Line
-	1400 1450 2100 1450
+	1400 1450 1850 1450
 Wire Wire Line
 	1900 1650 5200 1650
 Wire Wire Line
@@ -1452,9 +1445,6 @@ Wire Wire Line
 	2100 1450 2100 3350
 Wire Wire Line
 	2100 3350 1350 3350
-Connection ~ 2100 1450
-Wire Wire Line
-	2100 1450 5550 1450
 $Comp
 L power:GND #PWR027
 U 1 1 5EEA610B
@@ -1535,4 +1525,20 @@ Wire Wire Line
 	8000 1300 8000 1100
 Wire Wire Line
 	8000 1100 8250 1100
+$Comp
+L power:VCC #PWR?
+U 1 1 5EDA1350
+P 1850 1450
+F 0 "#PWR?" H 1850 1300 50  0001 C CNN
+F 1 "VCC" H 1868 1623 50  0000 C CNN
+F 2 "" H 1850 1450 50  0001 C CNN
+F 3 "" H 1850 1450 50  0001 C CNN
+	1    1850 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 800  6450 800 
+Wire Wire Line
+	1850 1450 2100 1450
+Connection ~ 1850 1450
 $EndSCHEMATC
