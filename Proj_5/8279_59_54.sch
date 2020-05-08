@@ -1297,34 +1297,6 @@ Wire Wire Line
 	7150 8000 8400 8000
 Wire Wire Line
 	8400 8000 8400 7500
-Wire Wire Line
-	8400 7400 8400 7300
-Connection ~ 8400 7000
-Wire Wire Line
-	8400 7000 8400 6900
-Connection ~ 8400 7100
-Wire Wire Line
-	8400 7100 8400 7000
-Connection ~ 8400 7200
-Wire Wire Line
-	8400 7200 8400 7100
-Connection ~ 8400 7300
-Wire Wire Line
-	8400 7300 8400 7200
-Wire Wire Line
-	8400 6900 8550 6900
-Connection ~ 8400 6900
-$Comp
-L power:GND #PWR070
-U 1 1 5F6F628E
-P 8550 6900
-F 0 "#PWR070" H 8550 6650 50  0001 C CNN
-F 1 "GND" H 8555 6727 50  0000 C CNN
-F 2 "" H 8550 6900 50  0001 C CNN
-F 3 "" H 8550 6900 50  0001 C CNN
-	1    8550 6900
-	0    -1   -1   0   
-$EndComp
 NoConn ~ 7600 3800
 NoConn ~ 7050 2100
 NoConn ~ 7050 2200
@@ -1557,4 +1529,10 @@ NoConn ~ 8750 900
 NoConn ~ 8750 1000
 NoConn ~ 8750 1100
 NoConn ~ 8750 1200
+NoConn ~ 8400 6900
+NoConn ~ 8400 7000
+NoConn ~ 8400 7100
+NoConn ~ 8400 7200
+NoConn ~ 8400 7300
+NoConn ~ 8400 7400
 $EndSCHEMATC
