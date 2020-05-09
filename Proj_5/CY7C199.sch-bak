@@ -958,22 +958,6 @@ Entry Wire Line
 	11450 6400 11350 6300
 Entry Wire Line
 	11450 6500 11350 6400
-Text Label 11250 5700 0    50   ~ 0
-D0
-Text Label 11250 5800 0    50   ~ 0
-D1
-Text Label 11250 5900 0    50   ~ 0
-D2
-Text Label 11250 6000 0    50   ~ 0
-D3
-Text Label 11250 6100 0    50   ~ 0
-D4
-Text Label 11250 6200 0    50   ~ 0
-D5
-Text Label 11250 6300 0    50   ~ 0
-D6
-Text Label 11250 6400 0    50   ~ 0
-D7
 Wire Wire Line
 	11350 5700 11050 5700
 Wire Wire Line
@@ -1006,22 +990,6 @@ Entry Wire Line
 	11450 10000 11350 9900
 Entry Wire Line
 	11450 10100 11350 10000
-Text Label 11250 9300 0    50   ~ 0
-D0
-Text Label 11250 9400 0    50   ~ 0
-D1
-Text Label 11250 9500 0    50   ~ 0
-D2
-Text Label 11250 9600 0    50   ~ 0
-D3
-Text Label 11250 9700 0    50   ~ 0
-D4
-Text Label 11250 9800 0    50   ~ 0
-D5
-Text Label 11250 9900 0    50   ~ 0
-D6
-Text Label 11250 10000 0    50   ~ 0
-D7
 Wire Wire Line
 	11350 9300 11050 9300
 Wire Wire Line
@@ -1298,6 +1266,86 @@ F 3 "" H 5150 3600 50  0001 C CNN
 	1    5150 3600
 	0    1    1    0   
 $EndComp
+Text Label 11250 5700 0    50   ~ 0
+D8
+Text Label 11250 5800 0    50   ~ 0
+D9
+Text Label 11200 5900 0    50   ~ 0
+D10
+Text Label 11200 6000 0    50   ~ 0
+D11
+Text Label 11200 6100 0    50   ~ 0
+D12
+Text Label 11200 6200 0    50   ~ 0
+D13
+Text Label 11200 6300 0    50   ~ 0
+D14
+Text Label 11200 6400 0    50   ~ 0
+D15
+Text Label 11250 9300 0    50   ~ 0
+D8
+Text Label 11250 9400 0    50   ~ 0
+D9
+Text Label 11200 9500 0    50   ~ 0
+D10
+Text Label 11200 9600 0    50   ~ 0
+D11
+Text Label 11200 9700 0    50   ~ 0
+D12
+Text Label 11200 9800 0    50   ~ 0
+D13
+Text Label 11200 9900 0    50   ~ 0
+D14
+Text Label 11200 10000 0    50   ~ 0
+D15
+Entry Wire Line
+	7500 12600 7400 12700
+Entry Wire Line
+	7600 12600 7500 12700
+Entry Wire Line
+	7700 12600 7600 12700
+Entry Wire Line
+	7800 12600 7700 12700
+Entry Wire Line
+	7900 12600 7800 12700
+Entry Wire Line
+	8000 12600 7900 12700
+Entry Wire Line
+	8100 12600 8000 12700
+Entry Wire Line
+	8200 12600 8100 12700
+Wire Wire Line
+	7400 12700 7400 13000
+Wire Wire Line
+	7500 13000 7500 12700
+Wire Wire Line
+	7600 12700 7600 13000
+Wire Wire Line
+	7700 13000 7700 12700
+Wire Wire Line
+	7800 12700 7800 13000
+Wire Wire Line
+	7900 13000 7900 12700
+Wire Wire Line
+	8000 12700 8000 13000
+Wire Wire Line
+	8100 13000 8100 12700
+Text Label 7400 12800 1    50   ~ 0
+D8
+Text Label 7500 12800 1    50   ~ 0
+D9
+Text Label 7600 12850 1    50   ~ 0
+D10
+Text Label 7700 12850 1    50   ~ 0
+D11
+Text Label 7800 12850 1    50   ~ 0
+D12
+Text Label 7900 12850 1    50   ~ 0
+D13
+Text Label 8000 12850 1    50   ~ 0
+D14
+Text Label 8100 12850 1    50   ~ 0
+D15
 Wire Bus Line
 	3350 2650 6150 2650
 Wire Bus Line
@@ -1312,4 +1360,20 @@ Wire Bus Line
 	8400 5600 8400 12600
 Wire Bus Line
 	3350 12600 6500 12600
+Text HLabel 7400 13000 3    50   BiDi ~ 0
+D8
+Text HLabel 7500 13000 3    50   BiDi ~ 0
+D9
+Text HLabel 7600 13000 3    50   BiDi ~ 0
+D10
+Text HLabel 7700 13000 3    50   BiDi ~ 0
+D11
+Text HLabel 7800 13000 3    50   BiDi ~ 0
+D12
+Text HLabel 7900 13000 3    50   BiDi ~ 0
+D13
+Text HLabel 8100 13000 3    50   BiDi ~ 0
+D15
+Text HLabel 8000 13000 3    50   BiDi ~ 0
+D14
 $EndSCHEMATC
