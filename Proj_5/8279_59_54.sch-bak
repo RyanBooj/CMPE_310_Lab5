@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 6 10
+Sheet 5 10
 Title ""
 Date ""
 Rev ""
@@ -1026,7 +1026,7 @@ U 1 1 5F0F3FBB
 P 10550 8000
 F 0 "R17" H 10620 8046 50  0000 L CNN
 F 1 "1kOhm" H 10620 7955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" V 10480 8000 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 10480 8000 50  0001 C CNN
 F 3 "~" H 10550 8000 50  0001 C CNN
 	1    10550 8000
 	1    0    0    -1  
@@ -1240,7 +1240,7 @@ U 1 1 5F62591A
 P 8100 7200
 F 0 "J4" H 8150 7717 50  0000 C CNN
 F 1 "Conn_02x07_Counter_Clockwise" H 8150 7626 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_2x07_P1.00mm_Vertical" H 8100 7200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Horizontal" H 8100 7200 50  0001 C CNN
 F 3 "~" H 8100 7200 50  0001 C CNN
 	1    8100 7200
 	1    0    0    -1  
@@ -1490,7 +1490,7 @@ U 1 1 5EBE66D2
 P 8550 1000
 F 0 "J5" H 8600 1317 50  0000 C CNN
 F 1 "Conn_02x04_Top_Bottom" H 8600 1226 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_2x04_P1.00mm_Vertical" H 8550 1000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Horizontal" H 8550 1000 50  0001 C CNN
 F 3 "~" H 8550 1000 50  0001 C CNN
 	1    8550 1000
 	-1   0    0    1   

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 7 10
+Sheet 6 10
 Title ""
 Date ""
 Rev ""
@@ -1142,7 +1142,7 @@ U 1 1 5EEC8283
 P 3250 1500
 F 0 "J8" H 3168 1175 50  0000 C CNN
 F 1 "Conn_01x02" H 3168 1266 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical" H 3250 1500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3250 1500 50  0001 C CNN
 F 3 "~" H 3250 1500 50  0001 C CNN
 	1    3250 1500
 	-1   0    0    1   
@@ -1280,7 +1280,7 @@ U 1 1 5ECFD494
 P 13550 3150
 F 0 "J10" V 13646 2063 50  0000 R CNN
 F 1 "Conn_02x20_Counter_Clockwise" V 13555 2063 50  0000 R CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_2x20_P1.00mm_Vertical" H 13550 3150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Horizontal" H 13550 3150 50  0001 C CNN
 F 3 "~" H 13550 3150 50  0001 C CNN
 	1    13550 3150
 	0    1    -1   0   
@@ -1343,7 +1343,7 @@ U 1 1 5F1EACB0
 P 12050 2050
 F 0 "J9" V 12054 1163 50  0000 R CNN
 F 1 "Conn_02x16_Counter_Clockwise" V 12145 1163 50  0000 R CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_2x16_P1.00mm_Vertical" H 12050 2050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Horizontal" H 12050 2050 50  0001 C CNN
 F 3 "~" H 12050 2050 50  0001 C CNN
 	1    12050 2050
 	0    1    1    0   
@@ -1449,7 +1449,7 @@ U 1 1 5F88696A
 P 3600 3100
 F 0 "J6" V 3604 3380 50  0000 L CNN
 F 1 "Conn_02x06_Counter_Clockwise" V 3695 3380 50  0000 L CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_2x06_P1.00mm_Vertical" H 3600 3100 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Horizontal" H 3600 3100 50  0001 C CNN
 F 3 "~" H 3600 3100 50  0001 C CNN
 	1    3600 3100
 	0    1    1    0   
