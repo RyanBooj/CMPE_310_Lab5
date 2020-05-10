@@ -1248,10 +1248,6 @@ $EndComp
 Wire Wire Line
 	7150 6900 7900 6900
 Wire Wire Line
-	7150 7000 7900 7000
-Wire Wire Line
-	7150 7100 7900 7100
-Wire Wire Line
 	7150 7400 7150 7200
 Wire Wire Line
 	7150 7200 7900 7200
@@ -1541,4 +1537,18 @@ Wire Wire Line
 Wire Wire Line
 	1850 1450 2100 1450
 Connection ~ 1850 1450
+Wire Wire Line
+	7150 7000 7450 7000
+Wire Wire Line
+	7450 7000 7450 7150
+Wire Wire Line
+	7450 7150 7900 7150
+Wire Wire Line
+	7900 7150 7900 7100
+Wire Wire Line
+	7150 7100 7600 7100
+Wire Wire Line
+	7600 7100 7600 7000
+Wire Wire Line
+	7600 7000 7900 7000
 $EndSCHEMATC
