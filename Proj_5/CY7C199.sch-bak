@@ -1118,42 +1118,8 @@ F 3 "" H 7150 3250 50  0001 C CNN
 	1    7150 3250
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C4
-U 1 1 5F0B1B35
-P 7750 3600
-AR Path="/5EA98353/5F0B1B35" Ref="C4"  Part="1" 
-AR Path="/5EA98A67/5F0B1B35" Ref="C?"  Part="1" 
-AR Path="/5EC03876/5F0B1B35" Ref="C?"  Part="1" 
-AR Path="/5ED6EB57/5F0B1B35" Ref="C?"  Part="1" 
-F 0 "C4" V 7498 3600 50  0000 C CNN
-F 1 "0.1uF" V 7589 3600 50  0000 C CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J" H 7788 3450 50  0001 C CNN
-F 3 "~" H 7750 3600 50  0001 C CNN
-	1    7750 3600
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F0B1B3B
-P 7900 3600
-AR Path="/5EAF7226/5F0B1B3B" Ref="#PWR?"  Part="1" 
-AR Path="/5EA98A67/5F0B1B3B" Ref="#PWR?"  Part="1" 
-AR Path="/5EA98353/5F0B1B3B" Ref="#PWR015"  Part="1" 
-AR Path="/5EC03876/5F0B1B3B" Ref="#PWR?"  Part="1" 
-AR Path="/5ED6EB57/5F0B1B3B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR015" H 7900 3350 50  0001 C CNN
-F 1 "GND" H 7905 3427 50  0000 C CNN
-F 2 "" H 7900 3600 50  0001 C CNN
-F 3 "" H 7900 3600 50  0001 C CNN
-	1    7900 3600
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7600 3600 7150 3600
 Wire Wire Line
 	7150 3250 7150 3600
-Connection ~ 7150 3600
 Wire Wire Line
 	7150 3600 6450 3600
 $Comp
