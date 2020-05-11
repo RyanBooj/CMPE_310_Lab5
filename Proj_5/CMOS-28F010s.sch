@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 15748 23622
 encoding utf-8
-Sheet 4 10
+Sheet 3 10
 Title ""
 Date ""
 Rev ""
@@ -446,12 +446,14 @@ NoConn ~ 10850 4850
 NoConn ~ 10850 4950
 Text HLabel 3600 6400 0    50   Input ~ 0
 ~BLE
-NoConn ~ 10850 4450
-NoConn ~ 10850 4550
 Wire Wire Line
 	6850 3400 7100 3400
 Wire Wire Line
 	6850 6100 7000 6100
 Wire Wire Line
 	7000 2150 4650 2150
+Text HLabel 10850 4450 2    50   Input ~ 0
+~BHE
+Text HLabel 10850 4550 2    50   Input ~ 0
+~BLE
 $EndSCHEMATC

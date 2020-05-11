@@ -984,14 +984,6 @@ Wire Wire Line
 	3050 2000 7350 2000
 Wire Wire Line
 	7350 2000 7350 1600
-Wire Wire Line
-	7350 2000 7350 5150
-Connection ~ 7350 2000
-Wire Wire Line
-	7350 5150 7350 8550
-Connection ~ 7350 5150
-Wire Wire Line
-	7350 8550 8450 8550
 $Comp
 L power:GND #PWR?
 U 1 1 5ED91215
@@ -1036,13 +1028,21 @@ Wire Wire Line
 	2550 4950 2550 5050
 Wire Wire Line
 	2550 5050 2300 5050
-NoConn ~ 3050 2100
-NoConn ~ 3050 2200
 NoConn ~ 3050 2300
 NoConn ~ 3050 2400
 NoConn ~ 3050 2500
 Text HLabel 2050 2600 0    50   Input ~ 0
 M~IO
+Wire Wire Line
+	3050 2100 7350 2100
+Wire Wire Line
+	7350 2100 7350 5150
+Wire Wire Line
+	3050 2200 7250 2200
+Wire Wire Line
+	7250 2200 7250 8550
+Wire Wire Line
+	7250 8550 8450 8550
 Wire Bus Line
 	8050 8700 8050 10250
 Wire Bus Line
